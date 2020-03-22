@@ -1,0 +1,8 @@
+backports-abc==0.5
+certifi==2017.7.27.1
+redis==2.10.6
+singledispatch==3.4.0.3
+six==1.11.0
+SQLAlchemy==1.1.14
+tornado==4.5.2
+MySQL-python==1.2.5

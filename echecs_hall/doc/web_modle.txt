@@ -1,0 +1,8 @@
+1.登录验证
+    参数:user_id,password,(验证用户名密码,从mysql中查)session_id,  是否需要断线重连:  存入session_id ->user_id 存入redis中
+2.验证是否登录
+    session_id -> user_id , 验证是否和redis中储存的一直,   return 所在房间信息!
+3.加入桌子 或 创建桌子:
+    user_id + session_id 记录所在房间.
+4.离开桌子:
+    user_id + session_id 删除房间信息.

@@ -1,0 +1,8 @@
+{
+  "game_server_config":{
+    "host": "127.0.0.1",
+    "port": "20000"
+  },
+  "income_support" : 4000,
+  "get_income_support_interval": 300
+}

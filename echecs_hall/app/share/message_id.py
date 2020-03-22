@@ -1,0 +1,5 @@
+# coding=utf-8
+
+COMMAND_ID_USER_LOGIN = 1000002             # 登录
+COMMAND_ID_VALIDATE_USER_LOGIN = 1000003    # 验证是否登录
+COMMAND_ID_USER_RECONNECT = 100010          # 断线重连

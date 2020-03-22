@@ -1,0 +1,98 @@
+﻿{% extends '../index.html' %}
+{% block body_right %}
+<div class="content">
+    <div class="module">
+        <div class="module-head">
+            <h3>连接服务器分为内网测试服,外网测试服,公网测试服,公网正式服务.</h3>
+        </div>
+        <div class="module-body">
+            <section class="docs">
+                <h2>
+                    连接服务器</h2>
+                <h4></h4>
+                <div class="docs-example">
+                    <p>网测试服:<code>WS://192.168.0.73:10000</code></p>
+                    <p>外网测试服:<code>WS://192.168.1.168:10000</code></p>
+                    <p>公网测试服:<code>WS://119.23.66.138:10000</code></p>
+                    <p>公网正式服务:<code>None</code></p>
+                    <p>网测试服:<code>http://192.168.0.73:8888</code></p>
+                    <p>外网测试服:<code>http://192.168.1.168:8888</code></p>
+                    <p>公网测试服:<code>http://119.23.66.138:8888</code></p>
+                    <p>公网正式服务:<code>None</code></p>
+                </div>
+                <p>ps: <strong>ws</strong>为websocket链接, <strong>http</strong>为普通web接口</p>
+            </section>
+            <section class="docs">
+                <h2>
+                    Body copy</h2>
+                <p>
+                    This theme's global default <code>font-size</code> is <strong>13px</strong>,
+                    <code>font-family</code>
+                    is <strong>'Open Sans', Arial, sans-serif</strong>, with a <code>line-height</code>
+                    of <strong>20px</strong>. This is applied to the <code>&lt;body&gt;</code> and all
+                    paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a bottom margin
+                    of half their line-height (10px by default).</p>
+                <div class="docs-example">
+                    <p>
+                        Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus
+                        et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh
+                        ultricies vehicula.</p>
+                    <p>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo
+                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper
+                        nulla non metus auctor fringilla.</p>
+                    <p>
+                        Maecenas sed diam eget risus varius blandit sit et non magna. Donec id elit non
+                        mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula, eget lacinia odio sem nec elit.</p>
+                </div>
+            </section>
+            <section class="docs">
+                <h2>
+                    Lead Body copy</h2>
+                <p>
+                    Make a paragraph stand out by adding <code>.lead</code>.</p>
+                <div class="docs-example">
+                    <p class="lead">
+                        Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus
+                        et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh
+                        ultricies vehicula.</p>
+                    <p>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                        mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo
+                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper
+                        nulla non metus auctor fringilla.</p>
+                    <p>
+                        Maecenas sed diam eget risus varius blandit sit et non magna. Donec id elit non
+                        mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor
+                        ligula, eget lacinia odio sem nec elit.</p>
+                </div>
+            </section>
+            <section class="docs">
+                <h2>
+                    Emphasis</h2>
+                <p>
+                    Make use of HTML's default emphasis tags with lightweight styles. For de-emphasizing
+                    inline or blocks of text, use the <code>&lt;small&gt;</code> tag.</p>
+                <div class="docs-example">
+                    <p>
+                        Standard text size.</p>
+                    <p>
+                        <small>This line of text is meant to be treated as fine print.</small>
+                    </p>
+                        <pre class="pre">
+                            {
+                            <span class="pln"> </span>"code":200,
+                            <span class="pln"> </span>"info":
+                                <span class="pln"> </span>{
+                                    <span class="pln"> </span><span class="pln"> </span>"desc": 测试说明
+                                <span class="pln"> </span>}
+                            }
+                        </pre>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+{% end %}
