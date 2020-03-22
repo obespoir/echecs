@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="TpmSkin.GameOutShowModSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Group id="upGro" width="124" height="155" y="110" x="605">
-		<e:Image source="tpm_out_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
-	</e:Group>
-	<e:Group id="downGro" width="124" height="155" y="467" x="605">
-		<e:Image source="tpm_out_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
-	</e:Group>
-</e:Skin>
