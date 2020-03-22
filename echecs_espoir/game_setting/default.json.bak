@@ -1,0 +1,158 @@
+// 默认配置
+{
+  // 房间配置
+  "desk": {
+      "max_player_num": 4               // 一局游戏的玩家数
+  },
+
+  // 游戏内部当局游戏相关
+  "game":{
+      "max_player_num": 4,              // 一局游戏的玩家数
+      "has_tong_pao": 1,                // 是否可以通炮胡
+
+      "used_card_types": [1, 2, 3, 6],    // 使用的麻将牌花色 CardType.WAN, CardType.BING, CardType.TIAO
+
+      "auto_act_list": [90, 80, 10],    // 自動操作列表, 按優先級降序排列
+
+      // 胡牌类型相关配置
+      "used_hu_types": {"pi_hu": [1001, 1002], "qi_xiao_dui":[]},    // 使用的麻将胡牌类型
+                                // HuType.PI_HU: [HuType.PENG_PENG_HU, HuType.QING_YI_SE], HuType.QI_XIAO_DUI: []
+      "hu_fan_info": {
+          // 4×3+2 类
+          "pi_hu": 1,
+          "peng_peng_hu": 2,
+          "qing_yi_se": 4,
+
+          // 7×2 类
+          "qi_xiao_dui": 4,
+
+          // 13×1 类
+          "shi_san_yao": 8
+      },
+      "mutex_list": [         // 互斥胡法配置 [[type1, type1.1, ...], [type2, type2.1, ...], ...]
+                              //互斥玩法中只选择番数最高的
+      ],
+
+      "start_game_sequence": {             // 游戏开始时序列动作执行顺序
+          "start_game": {"next": 2, "interval": 0},
+          "gen_bank": {"next": 3, "interval": 1},
+          "deal_card": {"next": 4, "interval": 0},
+          "draw_card": {"next": 0, "interval": 0}
+      }
+  },
+
+  // 玩家行为相关
+  "player_act": {
+      "chi": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"clear_lou_hu": {}},
+                {"notify_chu": {}}
+            ]
+      },
+      "peng": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"clear_lou_hu": {}},
+                {"notify_chu": {}}
+            ]
+      },
+      "bu_gang": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"clear_lou_hu": {}},
+                {"draw_gang_card": {}}
+            ]
+      },
+      "dian_gang": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"clear_lou_hu": {}},
+                {"draw_gang_card": {}}
+            ]
+      },
+      "an_gang": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"clear_lou_hu": {}},
+                {"draw_gang_card": {}}
+            ]
+      },
+      "chu": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"check_chu_against": {}}
+            ]
+      },
+      "guo": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"next_act": {}}
+            ]
+      },
+      "dian_hu": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}}
+            ]
+      },
+      "zi_mo": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}}
+            ]
+      }
+  },
+
+  // 系统行为相关
+  "system_act": {
+      "check_against": {
+          "check_list": [1, 2, 3, 4]                    // 需要检查的操作 CheckAgainType
+      },
+      "draw_card": {
+          "step": [
+              {"param_check": {}},
+              {"has_enough_card": {}},
+              {"set_data": {}},
+              {"notify_drew_card": {}},
+              {"check_after": {}}
+          ],
+          "check_list": [1, 2, 3],                       // 需要检查的操作 CheckSelfActType
+          "bu_hua": 1                                    // 摸牌时是否需要补花
+      },
+      "settle": {
+          "gang_info": {"dian_gang": 1, "bu_gang": 1, "an_gang": 1},  //Act.DIAN_GANG: 1, Act.BU_GANG: 1, Act.AN_GANG: 1
+          "fan_config": {        // 胡牌时结算番型增益
+              "A": {},
+              "B": {
+                  "zhuang": 1, "dian_gang": 1, "bu_gang": 1, "an_gang": 1
+              },
+              "C": {},
+              "D": {}
+          },
+      "gen_zhuang_fan": 1              // 跟庄的番数，默认和屁胡基础番数一样
+      }
+  }
+}

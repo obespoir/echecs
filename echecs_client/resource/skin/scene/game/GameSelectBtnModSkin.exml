@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TpmSkin.GameSelectBtnModSkin" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="Tpm.*" width="1334">
+	<e:Group id="tipsGro" width="1126" height="150" x="100" y="0">
+		<e:Image source="tpm_tips_bg_png" scaleX="1" scaleY="1" verticalCenter="0" scale9Grid="196,6,72,43" width="500" horizontalCenter="0"/>
+		<e:Label id="tipsLab" text="过胡1次，金币x2" verticalCenter="0" fontFamily="Microsoft YaHei" size="30" horizontalCenter="0" textColor="0xf9ffa9"/>
+	</e:Group>
+	<e:Group height="150" width="1126" x="30" touchThrough="true" touchEnabled="false">
+		<ns1:SelectActBtn id="passBtn" y="1" skinName="TpmSkin.SelectActBtnSkin" x="2"/>
+		<ns1:SelectActBtn id="eatBtn" y="1" skinName="TpmSkin.SelectActBtnSkin" x="113"/>
+		<ns1:SelectActBtn id="pengBtn" y="1" skinName="TpmSkin.SelectActBtnSkin" x="225"/>
+		<ns1:SelectActBtn id="gangBtn" x="336" y="1" skinName="TpmSkin.SelectActBtnSkin"/>
+		<ns1:SelectActBtn id="huBtn" y="1" skinName="TpmSkin.SelectActBtnSkin" x="447"/>
+		<ns1:SelectActBtn id="guoHuBtn" skinName="TpmSkin.SelectActBtnSkin" x="400"/>
+		<ns1:SelectActBtn id="cancleBtn" skinName="TpmSkin.SelectActBtnSkin" x="410" y="0"/>
+		<ns1:SelectActBtn id="tingBtn" skinName="TpmSkin.SelectActBtnSkin" x="420" y="0"/>
+	</e:Group>
+	<e:Group height="150" width="1126" x="30" touchThrough="true" y="0">
+		<ns1:SelectActBtn id="passBtn0" y="1" skinName="TpmSkin.SelectActBtnSkin" x="2"/>
+		<ns1:SelectActBtn id="eatBtn0" y="1" skinName="TpmSkin.SelectActBtnSkin" x="113"/>
+		<ns1:SelectActBtn id="pengBtn0" y="1" skinName="TpmSkin.SelectActBtnSkin" x="225"/>
+		<ns1:SelectActBtn id="gangBtn0" x="336" y="1" skinName="TpmSkin.SelectActBtnSkin"/>
+		<ns1:SelectActBtn id="huBtn0" y="1" skinName="TpmSkin.SelectActBtnSkin" x="447"/>
+		<ns1:SelectActBtn id="guoHuBtn0" skinName="TpmSkin.SelectActBtnSkin" x="400"/>
+		<ns1:SelectActBtn id="cancleBtn0" skinName="TpmSkin.SelectActBtnSkin" x="410" y="0"/>
+		<ns1:SelectActBtn id="tingBtn0" skinName="TpmSkin.SelectActBtnSkin" x="420" y="0"/>
+	</e:Group>
+</e:Skin>

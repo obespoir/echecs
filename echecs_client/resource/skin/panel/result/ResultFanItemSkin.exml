@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.ResultFanItemSkin" width="280" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="nameLab" text="一色三步高" y="18" fontFamily="Microsoft YaHei" size="24" left="30" textColor="0xe6e6e6"/>
+	<e:Label id="fanLab" text="50番" y="18" fontFamily="Microsoft YaHei" size="24" right="30" textColor="0xffd34c"/>
+</e:Skin>

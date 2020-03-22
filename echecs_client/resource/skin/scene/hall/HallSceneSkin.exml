@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.HallSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:Tpm="Tpm.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_hall_bg_png" x="0" y="0" locked="true"/>
+	<e:Image source="tpm_logo_png" x="1035" y="0" locked="true"/>
+	<Tpm:HallRoomMod id="roomMod" x="184" y="120" skinName="TpmSkin.HallRoomModSkin"/>
+	<e:Button id="hallBackBtn" x="39" y="39">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_quit_hall_btn_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="hallKefuBtn" x="1198" y="152">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_kefu_btn_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="hallQuickBtn" y="486" x="488">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_quick_begin_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="moveGro" width="100%" height="100%" x="0" y="0" touchEnabled="false" touchThrough="true"/>
+	<Tpm:HallHeadMod id="headMod" x="0" skinName="TpmSkin.HallHeadModSkin" bottom="0" touchEnabled="false" touchChildren="true"/>
+	<Tpm:HallBtnMod id="btnMod" skinName="TpmSkin.HallBtnModSkin" right="0" bottom="0"/>
+</e:Skin>

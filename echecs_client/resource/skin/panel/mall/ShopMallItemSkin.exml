@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.ShopMallItemSkin" width="812" height="129" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_com_bord_png" x="0" y="0" width="812" height="129" scale9Grid="26,26,73,64" anchorOffsetY="0" />
+	<e:Image source="tpm_goldLight_png" x="11" y="11" />
+	<e:Image id="moneyIcon" source="tpm_moneyIcon1_png" x="39" y="31" />
+	<e:Label id="moneyText" text="120,000金币" x="193" y="24"  textColor="0xcc4400" size="28" fontFamily="Microsoft YaHei"/>
+	<e:Label id="priceText" text="价值12.0元" x="193" y="70"  textColor="0x524000" size="20"/>
+	<e:Image source="tpm_line_png" x="170" y="58" anchorOffsetX="0" width="450" anchorOffsetY="0" height="1"/>
+	<e:Button id="buyBtn" label="" horizontalCenter="303" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_com_org_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+	<e:Image source="tpm_diamondsNum_png" x="16" y="13" scaleX.down="0.95" scaleY.down="0.95"/>
+	<e:BitmapLabel width="77" height="23" x="55" y="16" text="1800" font="tpm_mallDiamondsNum_fnt" anchorOffsetY="0" anchorOffsetX="0" textAlign="center" scaleX.down="0.95" scaleY.down="0.95" letterSpacing="-5"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.EmailPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="880" height="560" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="tpm_com_title_bg_png" x="1" y="49" scale9Grid="15,15,90,90" width="880" height="510"/>
+		<e:Image source="tpm_com_title_bghead_png" x="208" y="22"/>
+		<e:Image x="361.5" y="-8.5" source="tpm_email_head_png"/>
+		<e:Button id="closeBtn" label="" horizontalCenter="420.5" verticalCenter="-229.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image x="124" y="498" anchorOffsetX="0" width="653" anchorOffsetY="0" height="37" source="tpm_emailtipsbg_png" scale9Grid="13,0,20,34"/>
+		<e:Label text="所有邮件最多保存60封，最多保存30天哦" x="201" y="503" anchorOffsetX="0" width="516" textColor="0xcbcbcb" size="28"/>
+		<e:Group id="emailEmptyGroup" width="349" height="128" x="227" y="211" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Label text="暂无邮件消息~" x="120" y="60" textColor="0xfcefdc" scaleX="1" scaleY="1"/>
+			<e:Image source="tpm_emailEmpty_png" horizontalCenter="-121" verticalCenter="0" x="-8" y="17" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Scroller id="emailListScroller" width="812" height="404" x="39" y="77" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="emailList" anchorOffsetX="0" width="775" anchorOffsetY="0" height="404" x="0" y="-12">
+				<e:layout>
+					<e:VerticalLayout gap="-15" paddingTop="0"/>
+				</e:layout>
+            </e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

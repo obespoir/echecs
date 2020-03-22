@@ -1,0 +1,32 @@
+{
+  "auto_op_wait_time": 2,               //自动操作等待时间  单位毫秒i
+  "manual_op_wait_time": 300,            //手动操作等待时间
+  "waite_answer_time": 5,               //系统发牌后等待时间
+  "manual_op_against_act_time": 30,     //玩家叫牌等待时间
+  "dissolve_wait_time": 15,             //解散房间等待时间
+  "bu_hua_show_time": 1,                //补花显示时间
+  "ting_auto_chu_time": 1,              //听牌后出牌等待时间
+  "web_server_url": "http://127.0.0.1:8889/mj/get_hall_room_info2",                //补花显示时间
+
+  "db":{
+    "mysql": {
+      "use_env": "testB",
+      "testB": {
+           "host":"127.0.0.1",
+           "port": 3306,
+           "user":"ob",
+           "passwd":"happyeveryday",
+           "db":"twoperson_majdb"
+      }
+    },
+    "redis":{
+      "use_env": "testB",
+      "testB": {
+           "host": "127.0.0.1",
+           "port": 8379,
+           "db": 1,
+           "password": "happyeveryday"
+      }
+    }
+  }
+}

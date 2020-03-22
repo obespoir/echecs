@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.MoneyNotEnoughPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_com_title_bg_png" x="341" y="174" width="637" height="445" scale9Grid="15,19,90,80" />
+	<e:Image source="tpm_com_bord_png" x="353" y="259" scale9Grid="28,29,70,59" width="611" height="262"  anchorOffsetY="0"/>
+	<e:Image source="tpm_com_title_bghead_png" x="437" y="147" />
+	<e:Image x="533" y="119" source="tpm_moneyNotEnoughHead_png"/>
+	<e:Button id="buyMoneyBtn" label="" horizontalCenter="-8" verticalCenter="192.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_com_org_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Image x="39" y="13" scaleX.down="0.95" scaleY.down="0.95" source="tpm_buyBtn_png"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="tipsText" text="您需要拥有5，000金币,才能进入高级场" x="402" y="215" size="28" anchorOffsetX="0"
+	         width="514" lineSpacing="20"  fontFamily="Microsoft YaHei" anchorOffsetY="0" height="39" textColor="0xfcefdc"/>
+	<e:Image source="tpm_moneyIcon_png" x="417" y="305"/>
+	<e:Image source="tpm_money_png" x="777" y="325"/>
+	<e:Label id="moneyText" text="4,000" x="608" y="331" textColor="0x780000" size="40"/>
+	<e:Button id="closeBtn" label="" horizontalCenter="302.5" verticalCenter="-189.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="tpm_line_png" x="401" y="406" anchorOffsetY="0" height="-3" anchorOffsetX="0" width="533"/>
+	<e:Button label="" horizontalCenter="268" verticalCenter="-53.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_refreshBtn_png" source.down="tpm_refreshBtn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="tpm_tuoyuan_bg_png" x="570" y="429" scale9Grid="24,0,62,52" anchorOffsetX="0" width="180"/>
+	<e:Label id="priceText" text="价值6.0元" x="581" y="439" size="28" textColor="0x7a1e00" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="155" anchorOffsetY="0" height="38" textAlign="center"/>
+</e:Skin>

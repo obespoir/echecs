@@ -1,0 +1,42 @@
+{
+    "log_level": "debug",                                        // 日志级别
+    "name": "service_1",                                     // 项目名称
+    "log_dir": "logs/obEspoir/",                            // 项目运行日志存放目录（不同测试环境目录不同）
+
+    "host": "127.0.0.1",
+    "type": "service",
+    "api_path": "service.include_libs",   // api 路径
+    "http": {
+        "port": 22001,
+        "token": "helloworldiloveyou~1234567890123",      // 32位秘钥 httpserver web通信
+        "encode": 0                                       // 是否启用加密
+    },
+    "rpc": {
+        "port": 22002,
+        "token": "helloworldiloveyou~1234567890123",      // 32位秘钥 rpc通信
+        "encode": 0,                                      // 是否启用加密
+        "type": "service",                                   // 节点类型
+
+        // rpc会收到三类消息：待本地处理消息、待转发的消息、待直接推送到websocket client的消息
+        "route": {                     //配置消息转发的路径
+            "range": {
+                "service": [[5001, 1000000]]
+            },
+            "special": {
+                            // like "proxy": [110119]
+            }
+        }
+    },
+
+    "remote_ports": [
+        {
+            "host": "127.0.0.1",
+            "port":  21002,
+            "token": "helloworldiloveyou~1234567890123",
+            "encode": 0,
+            "type": "route"                      // 节点类型(字符串标识)
+        }
+    ]
+
+
+}

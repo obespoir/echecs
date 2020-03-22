@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.EmailItemSkin" width="812" height="129" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_com_bord_png" x="0" y="0" width="812" height="129" scale9Grid="26,26,73,64" anchorOffsetY="0" />
+	<e:Image id="emailIcon" x="53" y="22"  source="tpm_email_Icon_png"/>
+	<e:Image source="tpm_line_png" x="170" y="67" anchorOffsetX="0" width="300" anchorOffsetY="0" height="1"/>
+	<e:Label id="emailTitle" text="国庆活动奖励" x="193" y="29"  size="28" fontFamily="Microsoft YaHei" textColor="0x000000"/>
+	<e:Image source="tpm_email_timeBg_png" x="510" y="45"/>
+	<e:Label id="sendTime" text="10月11日" x="537" y="52.5"  textColor="0x524000" size="20" textAlign="left"/>
+	<e:Label id="emailContent" text="价值12.0元" x="193" y="73" textColor="0x524000" size="20"/>
+	<e:Button id="readEmailBtn" label="" horizontalCenter="303" verticalCenter="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_com_org_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Image x="37" y="13" scaleX.down="0.95" scaleY.down="0.95" source="tpm_reademailBtn_png"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

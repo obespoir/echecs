@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.HallHeadModSkin" width="1334" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_hall_bottom_bg_png" x="0" bottom="0" locked="true"/>
+	<e:Group id="headGro" width="350" height="99" x="0" anchorOffsetX="0" bottom="6" touchThrough="false" anchorOffsetY="0">
+		<e:Image id="headMask" source="tpm_hall_head_mask_png" x="21" y="4" width="93" height="93"/>
+		<e:Image id="headImg" width="95" height="95" x="20" y="3" source="tpm_head_normal_png"/>
+		<e:Label id="nameLab" text="南山区小霸王丶" x="128" y="24" fontFamily="Microsoft YaHei" size="23"/>
+		<e:Label id="idLab" text="ID:123456" x="128" y="58" size="25" fontFamily="Microsoft YaHei" textColor="0xffe641"/>
+	</e:Group>
+	<e:Group id="moneyGro" width="300" height="240" x="355.01" touchEnabled="false" touchChildren="true" bottom="0">
+
+
+
+		<e:Group id="arrowGro" width="300" height="25" x="0" y="125.01">
+			<e:Image source="tpm_hall_arrow_up_btn_png" y="1.3" scaleX="1" scaleY="1" x="123" touchEnabled="false"/>
+		</e:Group>
+		<e:Group id="diamondGro" width="300" height="150" x="0" y="0">
+			<e:Image y="126.31" scaleX="1" scaleY="1" x="123" source="tpm_hall_arrow_down_btn_png"/>
+			<e:Image source="tpm_circle_bead_png" y="49" x="4"/>
+			<e:Image source="tpm_icon_diamond_png" x="21" y="62.99"/>
+			<e:Label id="diamondLab" text="13.34万" x="106" y="70" size="33" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group id="showmallGro" width="286" height="73" x="8" y="150" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Button id="addBtn" x="204.32" y="37.26" rotation="-45" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="tpm_close_btn_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="goldLab" text="13.34万" x="67" y="20" size="33" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1" anchorOffsetX="0" width="147" textAlign="center"/>
+			<e:Image source="tpm_icon_gold_png" x="1" y="5.32" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

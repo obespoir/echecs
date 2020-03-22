@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameHeadModSkin" width="140" height="180" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_game_head_bg_png" x="34" y="33" touchEnabled="false"/>
+	<e:Image id="headMask" source="tpm_game_head_mask_png" x="31.8" y="31"/>
+	<e:Image id="headImg" x="39" y="37.6" width="96" height="96" source="tpm_head_normal_png" touchEnabled="false"/>
+	<e:Image id="zhuangImg" source="tpm_game_zhuang_png" x="9" y="10" touchEnabled="false"/>
+	<e:Label id="goldLab" text="20.11万" y="145" size="26" fontFamily="Microsoft YaHei" width="100" x="38" textAlign="center" textColor="0xf9ffa9" touchEnabled="false"/>
+</e:Skin>

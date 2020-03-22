@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GiveMoneyPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_com_title_bg_png" x="341" y="174" width="637" height="445" scale9Grid="15,19,90,80" />
+	<e:Image source="tpm_com_bord_png" x="354" y="203" scale9Grid="28,29,70,59" width="611" height="318" />
+	<e:Image source="tpm_com_title_bghead_png" x="437" y="147" />
+	<e:Button id="getMoneyBtn" label="" horizontalCenter="-8" verticalCenter="192.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_com_org_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Image source="tpm_getmoneyBtn_png" x="19" y="13" scaleX.down="0.95" scaleY.down="0.95"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="contentText" text="您的金币不足！系统赠送您4,000金币，今天第一次领取，一共可领取三次" x="401" y="281" size="28" textColor="0x780000" anchorOffsetX="0"
+	         width="517" lineSpacing="20"  fontFamily="Microsoft YaHei"/>
+	<e:Image source="tpm_moneyIcon_png" x="446" y="397"/>
+	<e:Image source="tpm_money_png" x="800" y="417"/>
+	<e:Label id="moneyText" text="4,000" x="619" y="422" textColor="0x780000" size="40"/>
+	<e:Button id="closeBtn" label="" horizontalCenter="303.5" verticalCenter="-162.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="tpm_giveMoneyHead_png" x="561" y="123"/>
+</e:Skin>

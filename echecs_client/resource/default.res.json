@@ -1,0 +1,1174 @@
+{
+	"groups": [
+		{
+			"keys": "tpm_tips_top_bg_png,tpm_hall_bg_png,tpm_card_arrow_png,login_bg_png,tpm_login_layer_png,PlistLogin_json,tpm_register_layer_png",
+			"name": "preload"
+		},
+		{
+			"keys": "tpm_close_btn_png,tpm_com_green_btn_png,tpm_com_org_btn_png,tpm_long_org_btn_png,tpm_tog_off_btn_png,tpm_tog_on_btn_png,tpm_circle_bead_png,tpm_com_bord_png,tpm_com_title_bg_png,tpm_tips_bg_png,tpm_room_bg_jpg,tpm_tips_top_bg_png,tpm_icon_diamond_png,tpm_icon_gold_png,tpm_hall_bg_png,tpm_btn_play_method_png,tpm_btn_set_png,tpm_btn_share_png,tpm_btn_show_png,tpm_hall_arrow_down_btn_png,tpm_hall_arrow_up_btn_png,tpm_hall_bottom_bg_png,tpm_kefu_btn_png,tpm_logo_png,tpm_quick_begin_png,tpm_quit_hall_btn_png,tpm_room_high_png,tpm_room_middle_png,tpm_room_row_png,tpm_btn_email_png,tpm_begin_game_png,tpm_cancle_tip_bg_png,tpm_cancle_tuoguan_png,tpm_game_add_btn_png,tpm_game_exit_png,tpm_game_flower_png,tpm_game_flower_bg_png,tpm_game_head_bg_png,tpm_game_head_mask_png,tpm_game_menu_bg_png,tpm_game_reading_png,tpm_game_set_btn_png,tpm_game_small_frame_png,tpm_game_zhuang_png,tpm_guo_ci_png,tpm_hupai_bg_png,tpm_hupai_bg_tou_png,tpm_match_bg_png,tpm_out_bg_png,tpm_play_methond_btn_png,tpm_round_bg_png,tpm_residue_bg_png,tpm_head_normal_png,tpm_guo_times_fnt,tpm_guo_times_bg_png,tpm_game_ting_png,tpm_disk_circle_jpg,tpm_disk_down_png,tpm_disk_up_png,tpm_disk_bg_png,tpm_daojishi_fnt,tpm_match_time_fnt,tpm_com_title_bghead_png,tpm_cardbg_1_png,tpm_cardbg_2_png,tpm_cardbg_3_png,tpm_cardbg_4_png,tpm_cardbg_5_png,tpm_cardbg_6_png,tpm_cardbg_7_png,tpm_card_big_17_png,tpm_card_big_18_png,tpm_card_big_19_png,tpm_card_big_20_png,tpm_card_big_21_png,tpm_card_big_22_png,tpm_card_big_23_png,tpm_card_big_24_png,tpm_card_big_25_png,tpm_card_big_65_png,tpm_card_big_66_png,tpm_card_big_67_png,tpm_card_big_68_png,tpm_card_big_81_png,tpm_card_big_82_png,tpm_card_big_83_png,tpm_card_small_17_png,tpm_card_small_18_png,tpm_card_small_19_png,tpm_card_small_20_png,tpm_card_small_21_png,tpm_card_small_22_png,tpm_card_small_23_png,tpm_card_small_24_png,tpm_card_small_25_png,tpm_card_small_65_png,tpm_card_small_66_png,tpm_card_small_67_png,tpm_card_small_68_png,tpm_card_small_81_png,tpm_card_small_82_png,tpm_card_small_83_png,tpm_cardbg_8_png,tpm_card_arrow_png,tpm_wxShareFriend_png,tpm_shareHead_png,tpm_qrcode_png,tpm_qqShare_png,tpm_qrcodeBg_png,tpm_wxShare_png,tpm_set_close_png,tpm_set_open_png,tpm_buyBtn_png,tpm_shopMallHead_png,tpm_getmoneyBtn_png,tpm_giveMoneyHead_png,tpm_money_png,tpm_moneyIcon_png,tpm_audio_button_click_mp3,tpm_line_png,tpm_sureSkin_png,tpm_cancleSkin_png,tpm_moneyIcon3_png,tpm_moneyIcon2_png,tpm_goldLight_png,tpm_email_head_png,tpm_reademailBtn_png,tpm_email_Icon_png,tpm_email_getBtn_png,tpm_playmethod_baseRule1_png,tpm_playmethod_baseRule2_png,tpm_playmethod_baseType1_png,tpm_playmethod_baseType2_png,tpm_playmethod_head_png,tpm_playmethod_result1_png,tpm_playmethod_result2_png,tpm_playmethod_tsRule1_png,tpm_playmethod_tsRule2_png,tpm_emailEmpty_png,tpm_email_timeBg_png,tpm_defaultHeadImg_png,tpm_personalinfoHead_png,tpm_tishiIcon_png,tpm_email_detail_png,tpm_sureBtn_png,tpm_moneyIcon1_png,tpm_s1_png,tpm_s2_png,tpm_s3_png,tpm_s4_png,tpm_s5_png,tpm_s6_png,tpm_shaizi_mc_json,tpm_shaizi_tex_png,tpm_bgmask_png,tpm_emailtipsbg_png,tpm_personalinfoheadbg_png,tpm_NewProject_tex_json,tpm_NewProject_tex_png,tpm_NewProject_ske_json,tpm_actBtnCancle_png,tpm_actBtnGuo_png,tpm_mallDiamondsNum_fnt,tpm_diamondsNum_png,tpm_playmethod_bg_png,tpm_playmethod_selectedBg_png,tpm_playmethod_unselectedBg_png,tpm_fanTypeConf_json,tpm_tuoyuan_bg_png,tpm_refreshBtn_png,tpm_moneyNotEnoughHead_png,tpm_game_match_jiesan_png,tpm_game_match_re_png,tpm_game_loading_png,tpm_game_match_png,tpm_tuoguan_bg_png,tpm_tuoguan_tips_png,tpm_result_bg_win_png,tpm_result_coin_que_png,tpm_result_coindi_lose_png,tpm_result_coindi_win_png,tpm_result_line_lose_png,tpm_result_line_win_png,tpm_result_title_liu_png,tpm_result_title_lose_png,tpm_result_title_win_png,tpm_result_zi_ci_png,tpm_result_zi_fan_png,tpm_result_zi_gong_png,tpm_result_zi_guo_png,tpm_result_bg_lose_png,tpm_result_back_png,tpm_result_di_win_png,tpm_result_di_lose_png,tpm_result_zi_continu_png,tpm_result_zi_change_png,tpm_com_green_3_btn_png,tpm_com_org_1_png,tpm_result_win_fnt,tpm_result_lose_fnt,tpm_hall_head_mask_png,tpm_fanpai_tex_png,tpm_fanpai_ske_json,tpm_fanpai_tex_json,tpm_card_big_102_png,tpm_card_big_103_png,tpm_card_big_104_png,tpm_card_big_97_png,tpm_card_big_98_png,tpm_card_big_99_png,tpm_card_big_100_png,tpm_card_big_101_png,tpm_card_small_101_png,tpm_card_small_102_png,tpm_card_small_103_png,tpm_card_small_104_png,tpm_card_small_97_png,tpm_card_small_98_png,tpm_card_small_99_png,tpm_card_small_100_png,tpm_hutips_fram_png,tpm_hutips_zi_png,tpm_hutips_bg_png,tpm_set_head_png,tpm_guohujiabeiTitle_png,tpm_baseRuleConf_json",
+			"name": "all"
+		},
+		{
+			"keys": "tpm_set_close_png,tpm_set_open_png",
+			"name": "hall"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/common/button/tpm_close_btn.png",
+			"type": "image",
+			"name": "tpm_close_btn_png"
+		},
+		{
+			"url": "assets/common/button/tpm_com_green_btn.png",
+			"type": "image",
+			"name": "tpm_com_green_btn_png"
+		},
+		{
+			"url": "assets/common/button/tpm_com_org_btn.png",
+			"type": "image",
+			"name": "tpm_com_org_btn_png"
+		},
+		{
+			"url": "assets/common/button/tpm_long_org_btn.png",
+			"type": "image",
+			"name": "tpm_long_org_btn_png"
+		},
+		{
+			"url": "assets/common/button/tpm_tog_off_btn.png",
+			"type": "image",
+			"name": "tpm_tog_off_btn_png"
+		},
+		{
+			"url": "assets/common/button/tpm_tog_on_btn.png",
+			"type": "image",
+			"name": "tpm_tog_on_btn_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_circle_bead.png",
+			"type": "image",
+			"name": "tpm_circle_bead_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_com_bord.png",
+			"type": "image",
+			"name": "tpm_com_bord_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_com_title_bg.png",
+			"type": "image",
+			"name": "tpm_com_title_bg_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_tips_bg.png",
+			"type": "image",
+			"name": "tpm_tips_bg_png"
+		},
+		{
+			"url": "assets/common/bigbg/tpm_room_bg.jpg",
+			"type": "image",
+			"name": "tpm_room_bg_jpg"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_tips_top_bg.png",
+			"type": "image",
+			"name": "tpm_tips_top_bg_png"
+		},
+		{
+			"url": "assets/common/bigbg/tpm_hall_bg.png",
+			"type": "image",
+			"name": "tpm_hall_bg_png"
+		},
+		{
+			"url": "assets/common/icon/tpm_icon_diamond.png",
+			"type": "image",
+			"name": "tpm_icon_diamond_png"
+		},
+		{
+			"url": "assets/common/icon/tpm_icon_gold.png",
+			"type": "image",
+			"name": "tpm_icon_gold_png"
+		},
+		{
+			"url": "assets/hall/tpm_btn_play_method.png",
+			"type": "image",
+			"name": "tpm_btn_play_method_png"
+		},
+		{
+			"url": "assets/hall/tpm_btn_set.png",
+			"type": "image",
+			"name": "tpm_btn_set_png"
+		},
+		{
+			"url": "assets/hall/tpm_btn_share.png",
+			"type": "image",
+			"name": "tpm_btn_share_png"
+		},
+		{
+			"url": "assets/hall/tpm_btn_show.png",
+			"type": "image",
+			"name": "tpm_btn_show_png"
+		},
+		{
+			"url": "assets/hall/tpm_hall_arrow_down_btn.png",
+			"type": "image",
+			"name": "tpm_hall_arrow_down_btn_png"
+		},
+		{
+			"url": "assets/hall/tpm_hall_arrow_up_btn.png",
+			"type": "image",
+			"name": "tpm_hall_arrow_up_btn_png"
+		},
+		{
+			"url": "assets/hall/tpm_hall_bottom_bg.png",
+			"type": "image",
+			"name": "tpm_hall_bottom_bg_png"
+		},
+		{
+			"url": "assets/hall/tpm_kefu_btn.png",
+			"type": "image",
+			"name": "tpm_kefu_btn_png"
+		},
+		{
+			"url": "assets/hall/tpm_logo.png",
+			"type": "image",
+			"name": "tpm_logo_png"
+		},
+		{
+			"url": "assets/hall/tpm_quick_begin.png",
+			"type": "image",
+			"name": "tpm_quick_begin_png"
+		},
+		{
+			"url": "assets/hall/tpm_quit_hall_btn.png",
+			"type": "image",
+			"name": "tpm_quit_hall_btn_png"
+		},
+		{
+			"url": "assets/hall/tpm_room_high.png",
+			"type": "image",
+			"name": "tpm_room_high_png"
+		},
+		{
+			"url": "assets/hall/tpm_room_middle.png",
+			"type": "image",
+			"name": "tpm_room_middle_png"
+		},
+		{
+			"url": "assets/hall/tpm_room_row.png",
+			"type": "image",
+			"name": "tpm_room_row_png"
+		},
+		{
+			"url": "assets/hall/tpm_btn_email.png",
+			"type": "image",
+			"name": "tpm_btn_email_png"
+		},
+		{
+			"url": "assets/hall/set/tpm_set_close.png",
+			"type": "image",
+			"name": "tpm_set_close_png"
+		},
+		{
+			"url": "assets/hall/set/tpm_set_open.png",
+			"type": "image",
+			"name": "tpm_set_open_png"
+		},
+		{
+			"url": "assets/hall/tpm_hall_head_mask.png",
+			"type": "image",
+			"name": "tpm_hall_head_mask_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_begin_game.png",
+			"type": "image",
+			"name": "tpm_begin_game_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_cancle_tip_bg.png",
+			"type": "image",
+			"name": "tpm_cancle_tip_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_cancle_tuoguan.png",
+			"type": "image",
+			"name": "tpm_cancle_tuoguan_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_add_btn.png",
+			"type": "image",
+			"name": "tpm_game_add_btn_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_exit.png",
+			"type": "image",
+			"name": "tpm_game_exit_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_flower.png",
+			"type": "image",
+			"name": "tpm_game_flower_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_flower_bg.png",
+			"type": "image",
+			"name": "tpm_game_flower_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_head_bg.png",
+			"type": "image",
+			"name": "tpm_game_head_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_head_mask.png",
+			"type": "image",
+			"name": "tpm_game_head_mask_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_menu_bg.png",
+			"type": "image",
+			"name": "tpm_game_menu_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_reading.png",
+			"type": "image",
+			"name": "tpm_game_reading_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_set_btn.png",
+			"type": "image",
+			"name": "tpm_game_set_btn_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_small_frame.png",
+			"type": "image",
+			"name": "tpm_game_small_frame_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_zhuang.png",
+			"type": "image",
+			"name": "tpm_game_zhuang_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_guo_ci.png",
+			"type": "image",
+			"name": "tpm_guo_ci_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_hupai_bg.png",
+			"type": "image",
+			"name": "tpm_hupai_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_hupai_bg_tou.png",
+			"type": "image",
+			"name": "tpm_hupai_bg_tou_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_match_bg.png",
+			"type": "image",
+			"name": "tpm_match_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_out_bg.png",
+			"type": "image",
+			"name": "tpm_out_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_play_methond_btn.png",
+			"type": "image",
+			"name": "tpm_play_methond_btn_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_round_bg.png",
+			"type": "image",
+			"name": "tpm_round_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_residue_bg.png",
+			"type": "image",
+			"name": "tpm_residue_bg_png"
+		},
+		{
+			"url": "assets/common/icon/tpm_head_normal.png",
+			"type": "image",
+			"name": "tpm_head_normal_png"
+		},
+		{
+			"url": "assets/common/font/tpm_guo_times.fnt",
+			"type": "font",
+			"name": "tpm_guo_times_fnt"
+		},
+		{
+			"url": "assets/game/scene/tpm_guo_times_bg.png",
+			"type": "image",
+			"name": "tpm_guo_times_bg_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_game_ting.png",
+			"type": "image",
+			"name": "tpm_game_ting_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_disk_circle.jpg",
+			"type": "image",
+			"name": "tpm_disk_circle_jpg"
+		},
+		{
+			"url": "assets/game/disk/tpm_disk_down.png",
+			"type": "image",
+			"name": "tpm_disk_down_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_disk_up.png",
+			"type": "image",
+			"name": "tpm_disk_up_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_disk_bg.png",
+			"type": "image",
+			"name": "tpm_disk_bg_png"
+		},
+		{
+			"url": "assets/common/font/tpm_daojishi.fnt",
+			"type": "font",
+			"name": "tpm_daojishi_fnt"
+		},
+		{
+			"url": "assets/common/font/tpm_match_time.fnt",
+			"type": "font",
+			"name": "tpm_match_time_fnt"
+		},
+		{
+			"url": "assets/common/button/tpm_com_green2_btn.png",
+			"type": "image",
+			"name": "tpm_com_green2_btn_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_com_title_bghead.png",
+			"type": "image",
+			"name": "tpm_com_title_bghead_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_1.png",
+			"type": "image",
+			"name": "tpm_cardbg_1_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_2.png",
+			"type": "image",
+			"name": "tpm_cardbg_2_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_3.png",
+			"type": "image",
+			"name": "tpm_cardbg_3_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_4.png",
+			"type": "image",
+			"name": "tpm_cardbg_4_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_5.png",
+			"type": "image",
+			"name": "tpm_cardbg_5_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_6.png",
+			"type": "image",
+			"name": "tpm_cardbg_6_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_7.png",
+			"type": "image",
+			"name": "tpm_cardbg_7_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_17.png",
+			"type": "image",
+			"name": "tpm_card_big_17_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_18.png",
+			"type": "image",
+			"name": "tpm_card_big_18_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_19.png",
+			"type": "image",
+			"name": "tpm_card_big_19_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_20.png",
+			"type": "image",
+			"name": "tpm_card_big_20_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_21.png",
+			"type": "image",
+			"name": "tpm_card_big_21_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_22.png",
+			"type": "image",
+			"name": "tpm_card_big_22_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_23.png",
+			"type": "image",
+			"name": "tpm_card_big_23_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_24.png",
+			"type": "image",
+			"name": "tpm_card_big_24_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_25.png",
+			"type": "image",
+			"name": "tpm_card_big_25_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_65.png",
+			"type": "image",
+			"name": "tpm_card_big_65_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_66.png",
+			"type": "image",
+			"name": "tpm_card_big_66_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_67.png",
+			"type": "image",
+			"name": "tpm_card_big_67_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_68.png",
+			"type": "image",
+			"name": "tpm_card_big_68_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_81.png",
+			"type": "image",
+			"name": "tpm_card_big_81_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_82.png",
+			"type": "image",
+			"name": "tpm_card_big_82_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_83.png",
+			"type": "image",
+			"name": "tpm_card_big_83_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_17.png",
+			"type": "image",
+			"name": "tpm_card_small_17_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_18.png",
+			"type": "image",
+			"name": "tpm_card_small_18_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_19.png",
+			"type": "image",
+			"name": "tpm_card_small_19_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_20.png",
+			"type": "image",
+			"name": "tpm_card_small_20_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_21.png",
+			"type": "image",
+			"name": "tpm_card_small_21_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_22.png",
+			"type": "image",
+			"name": "tpm_card_small_22_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_23.png",
+			"type": "image",
+			"name": "tpm_card_small_23_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_24.png",
+			"type": "image",
+			"name": "tpm_card_small_24_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_25.png",
+			"type": "image",
+			"name": "tpm_card_small_25_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_65.png",
+			"type": "image",
+			"name": "tpm_card_small_65_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_66.png",
+			"type": "image",
+			"name": "tpm_card_small_66_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_67.png",
+			"type": "image",
+			"name": "tpm_card_small_67_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_68.png",
+			"type": "image",
+			"name": "tpm_card_small_68_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_81.png",
+			"type": "image",
+			"name": "tpm_card_small_81_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_82.png",
+			"type": "image",
+			"name": "tpm_card_small_82_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_83.png",
+			"type": "image",
+			"name": "tpm_card_small_83_png"
+		},
+		{
+			"url": "assets/common/card/tpm_cardbg_8.png",
+			"type": "image",
+			"name": "tpm_cardbg_8_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_card_arrow.png",
+			"type": "image",
+			"name": "tpm_card_arrow_png"
+		},
+		{
+			"url": "assets/sound/common/tpm_audio_button_click.mp3",
+			"type": "sound",
+			"name": "tpm_audio_button_click_mp3"
+		},
+		{
+			"url": "assets/hall/givemoney/tpm_getmoneyBtn.png",
+			"type": "image",
+			"name": "tpm_getmoneyBtn_png"
+		},
+		{
+			"url": "assets/hall/givemoney/tpm_giveMoneyHead.png",
+			"type": "image",
+			"name": "tpm_giveMoneyHead_png"
+		},
+		{
+			"url": "assets/hall/givemoney/tpm_money.png",
+			"type": "image",
+			"name": "tpm_money_png"
+		},
+		{
+			"url": "assets/hall/givemoney/tpm_moneyIcon.png",
+			"type": "image",
+			"name": "tpm_moneyIcon_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_buyBtn.png",
+			"type": "image",
+			"name": "tpm_buyBtn_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_shopMallHead.png",
+			"type": "image",
+			"name": "tpm_shopMallHead_png"
+		},
+		{
+			"url": "assets/hall/share/tpm_qqShare.png",
+			"type": "image",
+			"name": "tpm_qqShare_png"
+		},
+		{
+			"url": "assets/hall/share/tpm_qrcode.png",
+			"type": "image",
+			"name": "tpm_qrcode_png"
+		},
+		{
+			"url": "assets/hall/share/tpm_qrcodeBg.png",
+			"type": "image",
+			"name": "tpm_qrcodeBg_png"
+		},
+		{
+			"url": "assets/hall/share/tpm_shareHead.png",
+			"type": "image",
+			"name": "tpm_shareHead_png"
+		},
+		{
+			"url": "assets/hall/share/tpm_wxShare.png",
+			"type": "image",
+			"name": "tpm_wxShare_png"
+		},
+		{
+			"url": "assets/hall/share/tpm_wxShareFriend.png",
+			"type": "image",
+			"name": "tpm_wxShareFriend_png"
+		},
+		{
+			"url": "assets/common/button/tpm_cancleSkin.png",
+			"type": "image",
+			"name": "tpm_cancleSkin_png"
+		},
+		{
+			"url": "assets/common/button/tpm_sureSkin.png",
+			"type": "image",
+			"name": "tpm_sureSkin_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_line.png",
+			"type": "image",
+			"name": "tpm_line_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_moneyIcon2.png",
+			"type": "image",
+			"name": "tpm_moneyIcon2_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_moneyIcon3.png",
+			"type": "image",
+			"name": "tpm_moneyIcon3_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_goldLight.png",
+			"type": "image",
+			"name": "tpm_goldLight_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_email_head.png",
+			"type": "image",
+			"name": "tpm_email_head_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_reademailBtn.png",
+			"type": "image",
+			"name": "tpm_reademailBtn_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_email_Icon.png",
+			"type": "image",
+			"name": "tpm_email_Icon_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_email_getBtn.png",
+			"type": "image",
+			"name": "tpm_email_getBtn_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_baseRule1.png",
+			"type": "image",
+			"name": "tpm_playmethod_baseRule1_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_baseRule2.png",
+			"type": "image",
+			"name": "tpm_playmethod_baseRule2_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_baseType1.png",
+			"type": "image",
+			"name": "tpm_playmethod_baseType1_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_baseType2.png",
+			"type": "image",
+			"name": "tpm_playmethod_baseType2_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_head.png",
+			"type": "image",
+			"name": "tpm_playmethod_head_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_result1.png",
+			"type": "image",
+			"name": "tpm_playmethod_result1_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_result2.png",
+			"type": "image",
+			"name": "tpm_playmethod_result2_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_tsRule1.png",
+			"type": "image",
+			"name": "tpm_playmethod_tsRule1_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_tsRule2.png",
+			"type": "image",
+			"name": "tpm_playmethod_tsRule2_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_emailEmpty.png",
+			"type": "image",
+			"name": "tpm_emailEmpty_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_email_timeBg.png",
+			"type": "image",
+			"name": "tpm_email_timeBg_png"
+		},
+		{
+			"url": "assets/hall/personalinfo/tpm_defaultHeadImg.png",
+			"type": "image",
+			"name": "tpm_defaultHeadImg_png"
+		},
+		{
+			"url": "assets/hall/personalinfo/tpm_personalinfoHead.png",
+			"type": "image",
+			"name": "tpm_personalinfoHead_png"
+		},
+		{
+			"url": "assets/common/button/tpm_sureBtn.png",
+			"type": "image",
+			"name": "tpm_sureBtn_png"
+		},
+		{
+			"url": "assets/common/icon/tpm_tishiIcon.png",
+			"type": "image",
+			"name": "tpm_tishiIcon_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_email_detail.png",
+			"type": "image",
+			"name": "tpm_email_detail_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_moneyIcon1.png",
+			"type": "image",
+			"name": "tpm_moneyIcon1_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_s1.png",
+			"type": "image",
+			"name": "tpm_s1_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_s2.png",
+			"type": "image",
+			"name": "tpm_s2_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_s3.png",
+			"type": "image",
+			"name": "tpm_s3_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_s4.png",
+			"type": "image",
+			"name": "tpm_s4_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_s5.png",
+			"type": "image",
+			"name": "tpm_s5_png"
+		},
+		{
+			"url": "assets/game/disk/tpm_s6.png",
+			"type": "image",
+			"name": "tpm_s6_png"
+		},
+		{
+			"url": "assets/common/mc/tpm_shaizi_mc.json",
+			"type": "json",
+			"name": "tpm_shaizi_mc_json"
+		},
+		{
+			"url": "assets/common/mc/tpm_shaizi_tex.png",
+			"type": "image",
+			"name": "tpm_shaizi_tex_png"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_bgmask.png",
+			"type": "image",
+			"name": "tpm_bgmask_png"
+		},
+		{
+			"url": "assets/hall/email/tpm_emailtipsbg.png",
+			"type": "image",
+			"name": "tpm_emailtipsbg_png"
+		},
+		{
+			"url": "assets/hall/personalinfo/tpm_personalinfoheadbg.png",
+			"type": "image",
+			"name": "tpm_personalinfoheadbg_png"
+		},
+		{
+			"url": "assets/common/mc/tpm_NewProject_tex.json",
+			"type": "json",
+			"name": "tpm_NewProject_tex_json"
+		},
+		{
+			"url": "assets/common/mc/tpm_NewProject_tex.png",
+			"type": "image",
+			"name": "tpm_NewProject_tex_png"
+		},
+		{
+			"url": "assets/common/mc/tpm_NewProject_ske.json",
+			"type": "json",
+			"name": "tpm_NewProject_ske_json"
+		},
+		{
+			"url": "assets/game/scene/tpm_actBtnCancle.png",
+			"type": "image",
+			"name": "tpm_actBtnCancle_png"
+		},
+		{
+			"url": "assets/game/scene/tpm_actBtnGuo.png",
+			"type": "image",
+			"name": "tpm_actBtnGuo_png"
+		},
+		{
+			"url": "assets/common/font/tpm_mallDiamondsNum.fnt",
+			"type": "font",
+			"name": "tpm_mallDiamondsNum_fnt"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_bg.png",
+			"type": "image",
+			"name": "tpm_playmethod_bg_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_selectedBg.png",
+			"type": "image",
+			"name": "tpm_playmethod_selectedBg_png"
+		},
+		{
+			"url": "assets/hall/playmethod/tpm_playmethod_unselectedBg.png",
+			"type": "image",
+			"name": "tpm_playmethod_unselectedBg_png"
+		},
+		{
+			"url": "assets/hall/mall/tpm_diamondsNum.png",
+			"type": "image",
+			"name": "tpm_diamondsNum_png"
+		},
+		{
+			"url": "assets/conf/tpm_fanTypeConf.json",
+			"type": "json",
+			"name": "tpm_fanTypeConf_json"
+		},
+		{
+			"url": "assets/common/smallbg/tpm_tuoyuan_bg.png",
+			"type": "image",
+			"name": "tpm_tuoyuan_bg_png"
+		},
+		{
+			"url": "assets/hall/givemoney/tpm_moneyNotEnoughHead.png",
+			"type": "image",
+			"name": "tpm_moneyNotEnoughHead_png"
+		},
+		{
+			"url": "assets/hall/givemoney/tpm_refreshBtn.png",
+			"type": "image",
+			"name": "tpm_refreshBtn_png"
+		},
+		{
+			"url": "assets/game/match/tpm_game_match_jiesan.png",
+			"type": "image",
+			"name": "tpm_game_match_jiesan_png"
+		},
+		{
+			"url": "assets/game/match/tpm_game_match_re.png",
+			"type": "image",
+			"name": "tpm_game_match_re_png"
+		},
+		{
+			"url": "assets/game/match/tpm_game_loading.png",
+			"type": "image",
+			"name": "tpm_game_loading_png"
+		},
+		{
+			"url": "assets/game/match/tpm_game_match.png",
+			"type": "image",
+			"name": "tpm_game_match_png"
+		},
+		{
+			"url": "assets/game/tuoguan/tpm_tuoguan_bg.png",
+			"type": "image",
+			"name": "tpm_tuoguan_bg_png"
+		},
+		{
+			"url": "assets/game/tuoguan/tpm_tuoguan_tips.png",
+			"type": "image",
+			"name": "tpm_tuoguan_tips_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_bg_win.png",
+			"type": "image",
+			"name": "tpm_result_bg_win_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_coin_que.png",
+			"type": "image",
+			"name": "tpm_result_coin_que_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_coindi_lose.png",
+			"type": "image",
+			"name": "tpm_result_coindi_lose_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_coindi_win.png",
+			"type": "image",
+			"name": "tpm_result_coindi_win_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_line_lose.png",
+			"type": "image",
+			"name": "tpm_result_line_lose_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_line_win.png",
+			"type": "image",
+			"name": "tpm_result_line_win_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_title_liu.png",
+			"type": "image",
+			"name": "tpm_result_title_liu_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_title_lose.png",
+			"type": "image",
+			"name": "tpm_result_title_lose_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_title_win.png",
+			"type": "image",
+			"name": "tpm_result_title_win_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_zi_ci.png",
+			"type": "image",
+			"name": "tpm_result_zi_ci_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_zi_fan.png",
+			"type": "image",
+			"name": "tpm_result_zi_fan_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_zi_gong.png",
+			"type": "image",
+			"name": "tpm_result_zi_gong_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_zi_guo.png",
+			"type": "image",
+			"name": "tpm_result_zi_guo_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_bg_lose.png",
+			"type": "image",
+			"name": "tpm_result_bg_lose_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_back.png",
+			"type": "image",
+			"name": "tpm_result_back_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_di_win.png",
+			"type": "image",
+			"name": "tpm_result_di_win_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_di_lose.png",
+			"type": "image",
+			"name": "tpm_result_di_lose_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_zi_continu.png",
+			"type": "image",
+			"name": "tpm_result_zi_continu_png"
+		},
+		{
+			"url": "assets/game/result/tpm_result_zi_change.png",
+			"type": "image",
+			"name": "tpm_result_zi_change_png"
+		},
+		{
+			"url": "assets/common/button/tpm_com_green_3_btn.png",
+			"type": "image",
+			"name": "tpm_com_green_3_btn_png"
+		},
+		{
+			"url": "assets/common/button/tpm_com_org_1.png",
+			"type": "image",
+			"name": "tpm_com_org_1_png"
+		},
+		{
+			"url": "assets/common/font/tpm_result_win.fnt",
+			"type": "font",
+			"name": "tpm_result_win_fnt"
+		},
+		{
+			"url": "assets/common/font/tpm_result_lose.fnt",
+			"type": "font",
+			"name": "tpm_result_lose_fnt"
+		},
+		{
+			"url": "assets/common/mc/tpm_fanpai_tex.png",
+			"type": "image",
+			"name": "tpm_fanpai_tex_png"
+		},
+		{
+			"url": "assets/common/mc/tpm_fanpai_ske.json",
+			"type": "json",
+			"name": "tpm_fanpai_ske_json"
+		},
+		{
+			"url": "assets/common/mc/tpm_fanpai_tex.json",
+			"type": "json",
+			"name": "tpm_fanpai_tex_json"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_102.png",
+			"type": "image",
+			"name": "tpm_card_big_102_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_103.png",
+			"type": "image",
+			"name": "tpm_card_big_103_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_104.png",
+			"type": "image",
+			"name": "tpm_card_big_104_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_97.png",
+			"type": "image",
+			"name": "tpm_card_big_97_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_98.png",
+			"type": "image",
+			"name": "tpm_card_big_98_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_99.png",
+			"type": "image",
+			"name": "tpm_card_big_99_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_100.png",
+			"type": "image",
+			"name": "tpm_card_big_100_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_big_101.png",
+			"type": "image",
+			"name": "tpm_card_big_101_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_101.png",
+			"type": "image",
+			"name": "tpm_card_small_101_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_102.png",
+			"type": "image",
+			"name": "tpm_card_small_102_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_103.png",
+			"type": "image",
+			"name": "tpm_card_small_103_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_104.png",
+			"type": "image",
+			"name": "tpm_card_small_104_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_97.png",
+			"type": "image",
+			"name": "tpm_card_small_97_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_98.png",
+			"type": "image",
+			"name": "tpm_card_small_98_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_99.png",
+			"type": "image",
+			"name": "tpm_card_small_99_png"
+		},
+		{
+			"url": "assets/common/card/tpm_card_small_100.png",
+			"type": "image",
+			"name": "tpm_card_small_100_png"
+		},
+		{
+			"url": "assets/game/hutips/tpm_hutips_fram.png",
+			"type": "image",
+			"name": "tpm_hutips_fram_png"
+		},
+		{
+			"url": "assets/game/hutips/tpm_hutips_zi.png",
+			"type": "image",
+			"name": "tpm_hutips_zi_png"
+		},
+		{
+			"url": "assets/game/hutips/tpm_hutips_bg.png",
+			"type": "image",
+			"name": "tpm_hutips_bg_png"
+		},
+		{
+			"url": "assets/hall/set/tpm_set_head.png",
+			"type": "image",
+			"name": "tpm_set_head_png"
+		},
+		{
+			"url": "assets/hall/tpm_guohujiabeiTitle.png",
+			"type": "image",
+			"name": "tpm_guohujiabeiTitle_png"
+		},
+		{
+			"url": "assets/conf/tpm_baseRuleConf.json",
+			"type": "json",
+			"name": "tpm_baseRuleConf_json"
+		},
+		{
+			"url": "assets/login/login_bg.png",
+			"type": "image",
+			"name": "login_bg_png"
+		},
+		{
+			"url": "assets/login/login_layer.png",
+			"type": "image",
+			"name": "tpm_login_layer_png"
+		},
+		{
+			"url": "assets/login/PlistLogin.json",
+			"type": "sheet",
+			"name": "PlistLogin_json",
+			"subkeys": "btn_acount_login,btn_back,btn_close,btn_login,btn_register,btn_register_ok,btn_visitors_login"
+		},
+		{
+			"url": "assets/login/register_layer.png",
+			"type": "image",
+			"name": "tpm_register_layer_png"
+		}
+	]
+}

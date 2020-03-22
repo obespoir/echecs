@@ -1,0 +1,263 @@
+// 二人麻将配置, 未配置的选项则使用默认值
+{
+  // 房间配置
+  "desk": {
+      "max_player_num": 2               // 一局游戏的玩家数
+  },
+
+  // 游戏内部当局游戏相关
+  "game":{
+      "test_mode": 1,                   // 是否开启测试模式  0: 关闭, 1:开启
+      "max_player_num": 2,              // 一局游戏的玩家数
+      "has_tong_pao": 0,                // 是否可以通炮胡
+      "draw_card_bu_hua": 1,            // 使用补花
+      "used_card_types": [1, 4, 5, 6],    // 使用万字风华的麻将牌花色 CardType.WAN, CardType.BING, CardType.TIAO
+
+      "auto_act_list": [90, 80, 10, 0],    // 自動操作列表, 按優先級降序排列
+
+      // 胡牌类型相关配置
+      "used_hu_types": {"PiHu": [ 1001,1002,1003,1004,1005,1006,1007,1008,1009,
+                                  1021,1022,1023,1024,1025,1026,1027,1028,
+                                  1041,1042,1043,1044,
+                                  1061,1062,1063,1064,
+                                  1081,1082,1083,1084,1085,
+                                  1121,
+                                  1161,1162,1163,1242,1243,1244,
+                                  1321,1322,1323,1324,1481,1482,
+                                  1641,1642,1643,1644,1645,1646,
+                                  1881,1882,1883,1884,1886,1887
+                              ], "QiXiaoDui":[2885]},    // 使用的麻将胡牌类型
+                                // HuType.PI_HU: [HuType.PENG_PENG_HU, HuType.QING_YI_SE], HuType.QI_XIAO_DUI: []
+      "hu_fan_info": {
+          "PiHu": 1,
+          "YiBanGao": 1,
+          "LianLiu": 1,
+          "LaoShaoFu": 1,
+          "YaoJiuKe": 1,
+          "MingGang": 1,
+          "BianZhang":1,
+          "KanZhang": 1,
+          "DanGouJiang":1,
+          "ZiMo":1,
+          "JianKe":2,
+          "MenQianQing":2,
+          "PingHu":2,
+          "SiGuiYi":2,
+          "ShuangAnKe":2,
+          "AnGang":  2,
+          "DuanYao":  2,
+          "BaoTing":2,
+          "QuanDaiYao":4,
+          "BuQiuRen":4,
+          "ShuangMingGang":4,
+          "HuJueZhang":4,
+          "PengPengHu":6,
+          "HunYiSe":  6,
+          "QuanQiuRen": 6,
+          "ShuangJianKe": 6,
+          "MiaoShouHuiChun":8,
+          "HaiDiLaoY":  8,
+          "GangShangKaiHua":8,
+          "QiangGangHu":  8,
+          "ShuangAnGang":  8,
+          "SanFengKe":  12,
+          "QingLong":  16,
+          "YiSeSanBuGao": 16,
+          "SanAnKe":  16,
+          "QingYiSe":  24,
+          "YiSeSanTongShun": 24,
+          "YiSeSanJieGao":24,
+          "YiSeSiBuGao":  32,
+          "SanGang":  32,
+          "HunYaoJiu":  32,
+          "TianTing":  32,
+          "YiSeSiTongShun": 48,
+          "YiSeSiJieGao":  48,
+          "XiaoSiXi":  64,
+          "XiaoSanYuan":  64,
+          "SiAnKe":  64,
+          "ZiYiSe":  64,
+          "YiSeShuangLongHui": 64,
+          "RenHu":  64,
+          "DaSiXi":  88,
+          "DaSanYuan":  88,
+          "JiuLianBaoDeng": 88,
+          "SiGang":  88,
+          "TianHu":  88,
+          "DiHu":  88,
+          "QiXiaoDui": 24
+      },
+      "mutex_list": [         // 互斥胡法配置 [[type1, type1.1, ...], [type2, type2.1, ...], ...]
+                              //互斥玩法中只选择番数最高的
+        [1022, 1009, 1042],
+        [1008, 1063],
+        [1009, 1083],
+        [1009, 1081],
+        [1044, 1084],
+        [1004, 1121],
+        [1001, 1243],
+        [1001, 1243, 1244],
+        [1002,1003,1162],
+        [1002,1003,1162,1321],
+        [1061,1004,1041,1323],
+        [1001,1024,2000,1243,1244,1481],
+        [1061,1243,1244,1482],
+        [1121,1004,1641],
+        [1021,1004,1064,1642],
+        [1022,1061,1163,1085,1042,1643],
+        [1061,1004,1121,1041,1323,1644],
+        [2000,1242,1001,1003,1645],
+        [1006,1007,1008,1044,1646],
+        [1121,1061,1004,1881],  // 大四喜
+        [1004,1021,1064,1882],  // 大三元
+        [1004,1022,1242,1042,1883],  // 九莲宝灯
+        [1008,1026,1005,1043,1085,1322,1884],  // 四杠
+        [1242,1042,1008,1022,2000,2885],  // 七连对
+        [1006,1007,1008,1042,1044,1009,2886],  // 天胡
+        [1006,1007,1008,1042,1044,1009,2887]   // 天胡
+      ],
+
+      "start_game_sequence": {             // 游戏开始时序列动作执行顺序
+          "start_game": {"next": 2, "interval": 0},
+          "gen_bank": {"next": 3, "interval": 1},
+          "deal_card": {"next": 0, "interval": 0},
+          "draw_card": {"next": 0, "interval": 0}
+      }
+  },
+
+  // 玩家行为相关
+  "player_act": {
+      "chi": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}},  // 通知其他玩家
+                {"clear_lou_hu": {}},
+                {"after_chi": {"can_ting": 1}}
+            ]
+      },
+      "peng": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}},  // 通知其他玩家
+                {"clear_lou_hu": {}},
+                {"after_peng": {"can_ting": 1}}
+            ]
+      },
+      "bu_gang": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}},  // 通知其他玩家
+                {"clear_lou_hu": {}},
+                {"draw_gang_card": {}}
+            ]
+      },
+      "dian_gang": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}},  // 通知其他玩家
+                {"clear_lou_hu": {}},
+                {"draw_gang_card": {}}
+            ]
+      },
+      "an_gang": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}},  // 通知其他玩家
+                {"clear_lou_hu": {}},
+                {"draw_gang_card": {}}
+            ]
+      },
+      "ting": {
+            "step": [             // 行为执行步骤
+                  {"param_check": {}},
+                  {"clear_other_act": {}},
+                  {"set_data": {}},
+                  {"record": {}},
+                  {"notify_other_player": {}},  // 通知其他玩家
+                  {"clear_lou_hu": {}},
+                  {"after_ting": {}}
+              ]
+        },
+      "chu": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}},  // 通知其他玩家
+                {"check_chu_against": {}}
+            ]
+      },
+      "guo": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"set_data": {}},
+                {"next_act": {}}
+            ]
+      },
+      "dian_hu": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}}
+
+            ]
+      },
+      "zi_mo": {
+          "step": [             // 行为执行步骤
+                {"param_check": {}},
+                {"clear_other_act": {}},
+                {"set_data": {}},
+                {"record": {}},
+                {"notify_other_player": {}}
+            ]
+      }
+  },
+
+  // 系统行为相关
+  "system_act": {
+      "check_against": {
+          "check_list": [1, 2, 3, 4]                    // 需要检查的操作 CheckAgainType
+      },
+      "draw_card": {
+          "step": [
+              {"param_check": {}},
+              {"has_enough_card": {}},
+              {"set_data": {}},
+              {"notify_drew_card": {}},
+              {"check_after": {}}
+          ],
+          "check_list": [1, 2, 3, 4],                    // 需要检查的操作 CheckSelfActTypeCAN_1:可暗杠 2:可补杠 3:可自摸 4:可听
+          "bu_hua": 1                                    // 摸牌时是否需要补花
+      },
+      "settle": {
+          "gang_info": {"dian_gang": 1, "bu_gang": 1, "an_gang": 1},  //Act.DIAN_GANG: 1, Act.BU_GANG: 1, Act.AN_GANG: 1
+          "fan_config": {        // 胡牌时结算番型增益
+              "A": {},
+              "B": {
+                  "zhuang": 1, "dian_gang": 1, "bu_gang": 1, "an_gang": 1
+              },
+              "C": {},
+              "D": {}
+          },
+      "gen_zhuang_fan": 1              // 跟庄的番数，默认和屁胡基础番数一样
+      }
+  }
+}
