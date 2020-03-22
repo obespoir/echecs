@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.SocketClosePanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="522" height="359" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="tpm_com_title_bg_png" x="23" y="29" width="453" height="301" scale9Grid="15,15,90,90" />
+		<e:Image source="tpm_com_bord_png" x="30" y="36" scale9Grid="26,27,72,64" anchorOffsetX="0" width="435"
+		         anchorOffsetY="0" height="291" />
+		<e:Label text="网络连接失败，请您检查网络后在进行尝试。" x="72" y="123.5" textColor="0x98380b" anchorOffsetX="0" width="348" size="28"
+		         fontFamily="Microsoft YaHei" lineSpacing="20" />
+		<e:Button id="sureBtn" label="" anchorOffsetX="-1" horizontalCenter="-19" verticalCenter="77">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="tpm_com_org_btn_png" scaleX.down="0.95" scaleY.down="0.95"  />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+					<e:Image source="tpm_sureSkin_png" x="35" y="11" scaleX.down="0.95" scaleY.down="0.95"  />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

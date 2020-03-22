@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.ShopMallPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="880" height="560" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="tpm_com_title_bg_png" x="1" y="49" scale9Grid="15,15,90,90" width="880" height="510"/>
+		<e:Image source="tpm_com_title_bghead_png" x="208" y="22"/>
+		<e:Image source="tpm_shopMallHead_png" x="361.5" y="-8.5"/>
+		<e:Button id="closeBtn" label="" horizontalCenter="420.5" verticalCenter="-229.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Scroller id="mallListScroller" width="798" height="418" x="39" y="93" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+			<e:List id="mallList" anchorOffsetX="0" width="775">
+				<e:layout>
+					<e:VerticalLayout gap="-10"/>
+				</e:layout>
+            </e:List>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

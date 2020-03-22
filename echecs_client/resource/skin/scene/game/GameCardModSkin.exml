@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameCardModSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="cardGro" width="100%" height="100%" x="0" y="0" touchThrough="true">
+		<e:Group id="outGro" width="100%" height="100%" x="0" y="0" scaleX="1" scaleY="1" touchThrough="true"/>
+	</e:Group>
+	<e:Group id="movieGro" width="100%" height="100%" x="0" y="0" touchThrough="true"/>
+	<e:Group id="dbGro" width="100%" height="100%" x="0" y="0" touchThrough="true" touchChildren="false" touchEnabled="false">
+	</e:Group>
+    <e:Group id="cardTestGro" width="100%" height="100%" x="0" y="0" visible="false">
+		<e:Group width="1334" height="150" x="0" y="0" scaleX="1" scaleY="1">
+			<e:Image source="tpm_cardbg_1_png" x="185" y="19"/>
+			<e:Image source="tpm_cardbg_5_png" x="270" y="19" scaleX="0.8" scaleY="0.75"/>
+			<e:Image source="tpm_card_big_17_png" x="272.37" y="19" scaleX="0.8" scaleY="0.75"/>
+			<e:Image source="tpm_cardbg_1_png" x="270" y="19"/>
+			<e:Image source="tpm_cardbg_1_png" x="334" y="19"/>
+			<e:Image source="tpm_cardbg_1_png" x="397" y="19"/>
+			<e:Image source="tpm_cardbg_1_png" x="460" y="19"/>
+			<e:Image source="tpm_cardbg_8_png" x="910" y="22" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_card_big_19_png" x="913" y="8" scaleX="0.79" scaleY="0.79" locked="true"/>
+			<e:Image source="tpm_cardbg_8_png" x="970" y="22" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_cardbg_8_png" x="1030" y="22" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_cardbg_8_png" x="532" y="22" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_cardbg_8_png" x="592" y="22" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_cardbg_8_png" x="652" y="22" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_cardbg_8_png" x="592" y="3" scaleX="0.98" scaleY="0.98"/>
+			<e:Image source="tpm_cardbg_6_png" x="841" y="21" scaleX="0.9" scaleY="0.9"/>
+			<e:Image source="tpm_cardbg_6_png" x="781" y="21" scaleX="0.9" scaleY="0.9"/>
+			<e:Image source="tpm_cardbg_6_png" x="721" y="21" scaleX="0.9" scaleY="0.9"/>
+			<e:Image source="tpm_cardbg_6_png" x="781" y="3" scaleX="0.9" scaleY="0.9"/>
+		</e:Group>
+		<e:Group width="1334" height="100" x="0" y="109" scaleX="1" scaleY="1">
+			<e:Image source="tpm_cardbg_7_png" x="249" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_card_small_19_png" x="260" y="26" locked="true"/>
+			<e:Image source="tpm_cardbg_7_png" x="295" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="341" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="387" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="433" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="479" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="525" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="571" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="617" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="663" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="709" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="755" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="801" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="847" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="893" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="939" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="985" y="18" scaleX="0.94" scaleY="0.94"/>
+			<e:Image source="tpm_cardbg_7_png" x="1031" y="18" scaleX="0.94" scaleY="0.94"/>
+		</e:Group>
+		<e:Group width="1334" height="200" x="0" y="500" scaleX="1" scaleY="1">
+			<e:Image source="tpm_cardbg_7_png" x="226" y="36"/>
+			<e:Image source="tpm_card_small_19_png" x="238" y="44" locked="true"/>
+			<e:Image source="tpm_cardbg_7_png" x="276" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="326" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="376" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="426" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="476" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="526" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="576" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="626" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="676" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="726" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="776" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="826" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="876" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="926" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="976" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="1026" y="36"/>
+			<e:Image source="tpm_cardbg_7_png" x="1076" y="36"/>
+		</e:Group>
+		<e:Group width="1334" height="150" x="0" bottom="-12" y="610" scaleX="1" scaleY="1">
+			<e:Image source="tpm_cardbg_4_png" x="70" y="37" scaleX="1.1" scaleY="1"/>
+			<e:Image source="tpm_cardbg_4_png" x="143" y="37" scaleX="1.1" scaleY="1"/>
+			<e:Image source="tpm_cardbg_4_png" x="216" y="37" scaleX="1.1" scaleY="1"/>
+			<e:Image source="tpm_cardbg_4_png" x="143" y="15" scaleX="1.1" scaleY="1"/>
+			<e:Image source="tpm_cardbg_4_png" x="317" y="37" scaleX="1.1"/>
+			<e:Image source="tpm_card_big_19_png" x="324" y="27" scaleX="0.8" scaleY="0.8"/>
+			<e:Image source="tpm_cardbg_4_png" x="390" y="37" scaleX="1.1"/>
+			<e:Image source="tpm_cardbg_4_png" x="461" y="37" scaleX="1.1"/>
+			<e:Image source="tpm_cardbg_6_png" x="563" y="37" scaleX="1.08"/>
+			<e:Image source="tpm_cardbg_6_png" x="636" y="37" scaleX="1.08"/>
+			<e:Image source="tpm_cardbg_6_png" x="709" y="37" scaleX="1.08"/>
+			<e:Image source="tpm_cardbg_4_png" x="637" y="14" scaleX="1.1"/>
+			<e:Image source="tpm_cardbg_5_png" x="809" y="14" scaleX="1" scaleY="1"/>
+			<e:Image x="891" y="14" scaleX="1.22" scaleY="1.23" source="tpm_cardbg_4_png"/>
+			<e:Image x="973" y="14" scaleX="1" scaleY="1" source="tpm_cardbg_6_png" width="86" height="120"/>
+			<e:Image source="tpm_cardbg_5_png" y="14" scaleX="1" scaleY="1" x="1179"/>
+			<e:Image source="tpm_cardbg_5_png" x="1054" y="14" scaleX="1" scaleY="1"/>
+			<e:Image source="tpm_card_big_17_png" x="1059" y="14"/>
+			<e:Rect width="83" height="118" x="1055" y="14" fillAlpha="0.5" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Image source="tpm_card_arrow_png" x="833" y="-26.88" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.PlayMethodPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="880" height="567" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="tpm_com_title_bg_png" x="13" y="59" scale9Grid="15,15,90,90" width="880" height="511"/>
+		<e:Image source="tpm_com_title_bghead_png" y="32" horizontalCenter="0"/>
+		<e:Image y="1.5" source="tpm_playmethod_head_png" horizontalCenter="0"/>
+		<e:Image x="26" y="157" scale9Grid="26,31,72,59" anchorOffsetX="0" width="812" anchorOffsetY="0" height="384" source="tpm_playmethod_bg_png"/>
+		<e:Button id="closeBtn" label="" horizontalCenter="419.5" verticalCenter="-223">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:TabBar id="playMethodtabBar" width="826" height="73" x="26" y="83" anchorOffsetX="0" anchorOffsetY="0"  itemRendererSkinName="TpmSkin.PlayMethodTabBarItemSkin" selectedIndex="0">
+			 <e:ArrayCollection>
+			 	<e:Array>
+			 		<e:Object label="tpm_playmethod_baseRule1_png" label2="tpm_playmethod_baseRule2_png" />
+			 		<e:Object label="tpm_playmethod_baseType1_png" label2="tpm_playmethod_baseType2_png" />
+			 		<e:Object label="tpm_playmethod_tsRule1_png" label2="tpm_playmethod_tsRule2_png" />
+			 		<e:Object label="tpm_playmethod_result1_png" label2="tpm_playmethod_result2_png" />
+			 	</e:Array>
+			 </e:ArrayCollection>
+			<e:layout>
+				<e:HorizontalLayout gap="-5"/>
+			</e:layout>
+		</e:TabBar>
+		<e:Group id="contentGroup" width="789" height="342" x="39" y="165" anchorOffsetX="0">
+			<e:Scroller id="baseRuleScroller" width="789" height="342" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="auto" scaleX="1" scaleY="1" visible="false">
+				<e:Group>
+				<e:Label id="baseRuleText" text="" x="39" y="40" anchorOffsetX="0" width="718" anchorOffsetY="0" lineSpacing="10"/>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller id="baseTypeScroller" width="789" height="342" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyV="auto" scrollPolicyH="off" scaleX="1" scaleY="1" visible="false">
+				<e:Group>
+					<e:layout>
+						<e:VerticalLayout paddingLeft="30" gap="6"/>
+					</e:layout>
+					<e:Label text="番型介绍：" x="2" y="124" textColor="0x370b00" bold="true" size="27.2" fontFamily="SimHei" scaleX="1" scaleY="1" anchorOffsetY="0" height="48"/>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller id="tsRuleScroller" width="789" height="342" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="auto" scaleX="1" scaleY="1" visible="false">
+				<e:Group>
+				<e:Label id="tsRuleText" text="" x="39" y="40" anchorOffsetX="0" width="718" anchorOffsetY="0" lineSpacing="10"/>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller id="resultRuleScroller" width="789" height="342" x="0" y="0" anchorOffsetY="0" anchorOffsetX="0" scrollPolicyH="off" scrollPolicyV="auto" scaleX="1" scaleY="1" visible="false">
+				<e:Group>
+				<e:Label id="resultRuleText" text="" x="39" y="40" anchorOffsetX="0" width="718" anchorOffsetY="0" lineSpacing="10"/>
+				</e:Group>
+			</e:Scroller>
+		</e:Group>
+	</e:Group>
+</e:Skin>

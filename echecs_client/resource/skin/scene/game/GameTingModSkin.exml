@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameTingModSkin" width="140" height="65" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="tingImg" source="tpm_game_ting_png" y="4" x="17" visible="false"/>
+	<e:Group id="guoGro" width="100%" height="100%" x="0" y="0">
+		<e:Image source="tpm_guo_times_bg_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="tpm_guo_ci_png" x="5.4" verticalCenter="-2.5"/>
+		<e:BitmapLabel id="timesLab" x="52.5" font="tpm_guo_times_fnt" text="3" verticalCenter="-1.5"/>
+	</e:Group>
+</e:Skin>

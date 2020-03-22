@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.SelectActBtnSkin" width="150" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="btnGro" width="100%" height="100%" x="0" y="0" touchEnabled="false" touchChildren="false" touchThrough="false">
+	</e:Group>
+	<e:Rect id="touchRect" width="100%" height="100%" x="0" y="0" alpha="0.01" touchEnabled="true"/>
+</e:Skin>

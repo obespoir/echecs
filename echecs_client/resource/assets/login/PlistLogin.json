@@ -1,0 +1,8 @@
+{"file":"PlistLogin.png","frames":{
+"btn_acount_login":{"x":0,"y":0,"w":236,"h":105,"offX":0,"offY":0,"sourceW":236,"sourceH":105},
+"btn_visitors_login":{"x":236,"y":0,"w":236,"h":105,"offX":0,"offY":0,"sourceW":236,"sourceH":105},
+"btn_back":{"x":472,"y":0,"w":165,"h":70,"offX":0,"offY":0,"sourceW":165,"sourceH":70},
+"btn_login":{"x":637,"y":0,"w":165,"h":70,"offX":0,"offY":0,"sourceW":165,"sourceH":70},
+"btn_register":{"x":802,"y":0,"w":165,"h":70,"offX":0,"offY":0,"sourceW":165,"sourceH":70},
+"btn_register_ok":{"x":472,"y":70,"w":165,"h":70,"offX":0,"offY":0,"sourceW":165,"sourceH":70},
+"btn_close":{"x":637,"y":70,"w":65,"h":65,"offX":0,"offY":0,"sourceW":65,"sourceH":65}}}

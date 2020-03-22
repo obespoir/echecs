@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameReadyModSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="upReady" source="tpm_game_reading_png" y="70" x="580"/>
+	<e:Image id="downReady" source="tpm_game_reading_png" y="560" x="580"/>
+    <e:Button id="beginBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="533" y="560">
+    <e:skinName>
+        <e:Skin states="up,down,disabled" xmlns:ns1="Kwx.*" xmlns:w="http://ns.egret.com/wing">
+        <e:Image width="100%" height="100%" horizontalCenter="0" verticalCenter="0" width.down="95%" height.down="95%" source="tpm_long_org_btn_png"/>
+        <e:Image anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="-5.5" width.down="201" height.down="59" source="tpm_begin_game_png"/>
+        <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+        </e:Skin>
+    </e:skinName>
+    </e:Button>
+</e:Skin>

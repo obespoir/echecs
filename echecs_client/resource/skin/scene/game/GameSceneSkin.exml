@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameSceneSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:Tpm="Tpm.*">
+	<e:Image source="tpm_room_bg_jpg" x="0" y="0"/>
+	<e:Group id="residueGro" width="175" height="58" y="208" x="580">
+		<e:Image source="tpm_residue_bg_png" x="0" y="0"/>
+		<e:Label text="剩余" x="20" fontFamily="DFKai-SB" textColor="0x79d9da" y="17"/>
+		<e:Label text="张" x="120" fontFamily="DFKai-SB" textColor="0x79D9DA" y="17"/>
+		<e:Label id="residueLab" text="20" x="75" y="19" fontFamily="Microsoft YaHei" size="26" textColor="0xfcff09" width="50" textAlign="center"/>
+	</e:Group>
+	<e:Group id="descGro" width="701" height="48" y="473" horizontalCenter="0">
+		<e:Image source="tpm_round_bg_png" y="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Label id="descLab" text="初级场 16番起胡 底分50" size="22" fontFamily="Microsoft YaHei" textColor="0x42a8a9" width="300" x="201" textAlign="center" verticalCenter="0"/>
+	</e:Group>
+	<Tpm:GameDiskMod id="diskMod" skinName="TpmSkin.GameDiskModSkin" x="568" y="271"/>
+	<Tpm:GameFlowerMod id="flowerMod" width="0" height="0" x="0" y="0" skinName="TpmSkin.GameFlowerModSkin"/>
+	<e:Group id="headGro" width="100%" height="100%" x="0" y="0">
+		<Tpm:GameHeadMod id="headDown" x="22" y="404" skinName="TpmSkin.GameHeadModSkin" scaleX="1" scaleY="1"/>
+		<Tpm:GameHeadMod id="headUp" x="1088" y="-8" skinName="TpmSkin.GameHeadModSkin" scaleX="1" scaleY="1"/>
+		<Tpm:GameTingMod id="tingDown" x="39" y="354" skinName="TpmSkin.GameTingModSkin"/>
+		<Tpm:GameTingMod id="tingUp" x="1110" y="184" skinName="TpmSkin.GameTingModSkin"/>
+	</e:Group>
+	<Tpm:GameCardMod id="cardMod" x="0" y="0" skinName="TpmSkin.GameCardModSkin"/>
+	<Tpm:GameSelectBtnMod id="selectBtnMod" x="0" y="440" skinName="TpmSkin.GameSelectBtnModSkin"/>
+	<Tpm:GameDbMod id="dbMod" x="0" y="0" skinName="TpmSkin.GameDbModSkin" touchEnabled="false"/>
+	<Tpm:GameOutShowMod id="outShowMod" x="0" skinName="TpmSkin.GameOutShowModSkin" visible="false"/>
+	<Tpm:GameEatChooseMod id="eatChooseMod" x="0" y="0" skinName="TpmSkin.GameEatChooseModSkin" visible="false"/>
+	<Tpm:GameGangChooseMod id="gangChooseMod" x="0" y="0" skinName="TpmSkin.GameGangChooseModSkin" visible="false"/>
+	<Tpm:GameHuTipsMod id="huTipsMod" x="0" y="0" skinName="TpmSkin.GameHuTipsModSkin" visible="false"/>
+	<e:Group id="btnGro" width="100%" height="100%" x="0" y="0" touchThrough="true">
+		<e:Button id="hallBackBtn" x="24" y="23.000000000000004" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_game_exit_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<Tpm:GameMenuMod id="MenuMod" skinName="TpmSkin.GameMenuModSkin" x="960" y="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<Tpm:GameMatchMod id="matchMod" skinName="TpmSkin.GameMatchModSkin" x="320" y="340" visible="false"/>
+	<Tpm:GameReadyMod id="readyMod" x="0" y="0" skinName="TpmSkin.GameReadyModSkin" visible="false"/>
+	<Tpm:GameCheatMod id="cheatMod" x="0" y="0" skinName="TpmSkin.GameCheatModSkin" visible="false"/>
+	<Tpm:GameTuogMod id="tuoMod" x="0" y="0" skinName="TpmSkin.GameTuogModSkin" visible="false"/>
+</e:Skin>

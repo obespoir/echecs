@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameFlowerModSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="downGro" width="125" height="49" x="217" y="481">
+		<e:Image source="tpm_game_flower_bg_png" x="0" y="0"/>
+		<e:Image source="tpm_game_flower_png" x="11" y="8"/>
+		<e:Label id="flowerLabDown" text="x2" x="67" fontFamily="Microsoft YaHei" size="26" verticalCenter="0"/>
+	</e:Group>
+	<e:Group id="upGro" width="125" height="49" x="964" y="206">
+		<e:Image source="tpm_game_flower_bg_png" x="0" y="0"/>
+		<e:Image source="tpm_game_flower_png" x="11" y="8"/>
+		<e:Label id="flowerLabUp" text="x2" x="67" fontFamily="Microsoft YaHei" size="26" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

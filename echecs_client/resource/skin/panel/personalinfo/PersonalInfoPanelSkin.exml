@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.PersonalInfoPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="650" height="567" horizontalCenter="0" verticalCenter="-3.5" anchorOffsetY="0">
+		<e:Image source="tpm_com_title_bg_png" x="1" y="59" scale9Grid="15,15,90,90" width="637" height="408"/>
+		<e:Image source="tpm_com_title_bghead_png" x="98" y="32"/>
+		<e:Image x="215.5" y="1.5" source="tpm_personalinfoHead_png"/>
+		<e:Image source="tpm_com_bord_png" x="18" y="83" scale9Grid="26,31,72,59" anchorOffsetX="0" width="611" anchorOffsetY="0" height="343"/>
+		<e:Button id="closeBtn" label="" horizontalCenter="298.5" verticalCenter="-209">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="ID：" x="234" y="154" textColor="0x524000" size="28" fontFamily="Microsoft YaHei" textAlign="right" width="84" height="28"/>
+		<e:Label text="金币：" x="234" y="195" textColor="0x524000" size="28" fontFamily="Microsoft YaHei"/>
+		<e:Label text="钻石：" x="234" y="237" textColor="0x524000" size="28" fontFamily="Microsoft YaHei"/>
+		<e:Label text="昵称：" x="234" y="112" textColor="0x524000" size="28" fontFamily="Microsoft YaHei"/>
+		<e:Image source="tpm_bgmask_png" x="334" y="113" anchorOffsetY="0" height="34" anchorOffsetX="0" width="207" scale9Grid="9,9,54,54"/>
+		<e:Image source="tpm_bgmask_png" x="334" y="155" anchorOffsetY="0" height="34" anchorOffsetX="0" width="207" scale9Grid="9,9,54,54"/>
+		<e:Image source="tpm_bgmask_png" x="334" y="196" anchorOffsetY="0" height="34" anchorOffsetX="0" width="207" scale9Grid="9,9,54,54"/>
+		<e:Image source="tpm_bgmask_png" x="334" y="238" anchorOffsetY="0" height="34" anchorOffsetX="0" width="207" scale9Grid="9,9,54,54"/>
+		<e:Image source="tpm_line_png" x="58" y="283" anchorOffsetY="0" height="1" width="500"/>
+		<e:Label text="最高连胜：" x="97" y="357" textColor="0x524000" size="28" fontFamily="Microsoft YaHei"/>
+		<e:Label text="总局数：" x="97" y="298" textColor="0x524000" size="28" fontFamily="Microsoft YaHei" anchorOffsetY="0" height="28"/>
+		<e:Label text="胜率：" x="404" y="298" textColor="0x524000" size="28" fontFamily="Microsoft YaHei"/>
+		<e:Label id="totalCount" text="999" x="214" y="301" textColor="0xb75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="105" textAlign="left"/>
+		<e:Label id="nick" text="灵剑士" x="337" y="114" textColor="0xB75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="203" textAlign="center"/>
+		<e:Label id="golds" text="9,999,999" x="339" y="198" textColor="0xB75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="203" textAlign="center"/>
+		<e:Label id="id" text="123456" x="339" y="159" textColor="0xB75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="203" textAlign="center"/>
+		<e:Label id="diamonds" text="9,999,999" x="339" y="242" textColor="0xB75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="203" textAlign="center"/>
+		<e:Label id="winRate" text="99.87%" x="486" y="299" textColor="0xB75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="101"/>
+		<e:Label id="highestWinCount" text="999场" x="236" y="358" textColor="0xB75921" size="28" fontFamily="Microsoft YaHei" anchorOffsetX="0" width="82" textAlign="left"/>
+		<e:Image source="tpm_personalinfoheadbg_png" x="73" y="123"/>
+		<e:Image id="headImg" source="tpm_defaultHeadImg_png" x="83.65" y="132.98" width="123" height="123"/>
+	</e:Group>
+</e:Skin>

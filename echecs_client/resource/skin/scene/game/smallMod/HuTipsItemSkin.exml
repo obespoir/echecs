@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.HuTipsItemSkin" width="129" height="83" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tpm_hutips_fram_png" x="0" y="0"/>
+	<e:Image id="posImg" source="tpm_cardbg_5_png" x="8" scaleX="0.6" scaleY="0.6" y="5"/>
+	<e:Label text="番" fontFamily="Microsoft YaHei" textColor="0xae9459" size="26" x="95" y="12"/>
+	<e:Label text="张" fontFamily="Microsoft YaHei" textColor="0xAE9459" size="26" x="95" y="46"/>
+	<e:Label id="fanLab" text="99" fontFamily="Microsoft YaHei" size="26" x="60" y="12" width="40" textAlign="center" textColor="0xb75921"/>
+	<e:Label id="sheetLab" text="1" fontFamily="Microsoft YaHei" size="26" x="60" y="46" width="40" textAlign="center" textColor="0xb75921"/>
+</e:Skin>

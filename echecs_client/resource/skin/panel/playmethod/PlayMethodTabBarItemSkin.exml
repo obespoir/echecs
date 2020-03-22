@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.PlayMethodTabBarItemSkin" width="207" height="76" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" source="tpm_playmethod_unselectedBg_png" source.down="tpm_playmethod_selectedBg_png"/>
+	<e:Label id="labelDisplay" text="" horizontalCenter="0" verticalCenter="0" />
+	<e:Image  x="32" y="26" source.down="{data.label}" source="{data.label2}"/>
+</e:Skin>

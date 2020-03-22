@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.GameMenuModSkin" width="374" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="tpm_game_menu_bg_png" x="0" y="0" visible="false"/>
+    <e:Button id="gameAddBtn" y="66.5" anchorOffsetX="39.5" anchorOffsetY="41.5" x="309.5">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_game_add_btn_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="addGro" width="120" height="750" y="0" touchThrough="true" right="0">
+		<e:Button id="gameRuleBtn" y="131" scaleX="1" scaleY="1" x="17">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_play_methond_btn_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+        <e:Button id="gameSetBtn" y="237" scaleX="1" scaleY="1" x="17">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_game_set_btn_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

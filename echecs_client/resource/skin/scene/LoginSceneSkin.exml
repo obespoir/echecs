@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.LoginSceneSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui">
+	<e:Image horizontalCenter="0" verticalCenter="0" source="tpm_hall_bg_png"/>
+</e:Skin>

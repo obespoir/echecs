@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.HallBtnModSkin" width="660" height="200" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Button id="hall_playMethod" x="44.32" y="81.26">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+            <e:Image width="100%" height="100%" source="tpm_btn_play_method_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="Tpm.*"/>
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+	<e:Button id="hall_email" x="172" y="79.26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_btn_email_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="hall_share" x="293" y="82.26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_btn_share_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="hall_shop" x="395" y="63.26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_btn_show_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="hall_set" x="537.65" y="76.26">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="tpm_btn_set_png" width.down="95%" height.down="95%" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="Tpm.*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

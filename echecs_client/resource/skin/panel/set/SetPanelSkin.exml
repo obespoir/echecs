@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.SetPanelSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="hallSetGroup" width="637" height="500" horizontalCenter="0.5" verticalCenter="-7">
+		<e:Image source="tpm_com_title_bg_png" x="0" y="88" scale9Grid="16,16,87,87" width="637" height="408" scaleX="1" scaleY="1"/>
+		<e:Image source="tpm_com_bord_png" x="13" y="118.2" scale9Grid="26,29,73,63" width="611" height="343" scaleX="1" scaleY="1"/>
+		<e:Image source="tpm_com_title_bghead_png" x="81" y="65.5" scaleX="1" scaleY="1"/>
+		<e:Image x="80" y="189.7" anchorOffsetX="0" width="494" scale9Grid="9,10,54,52" anchorOffsetY="0" height="113" scaleX="1" scaleY="1" source="tpm_bgmask_png"/>
+		<e:Image x="81" y="332.01" anchorOffsetX="0" width="494" scale9Grid="9,10,54,52" anchorOffsetY="0" height="74" scaleX="1" scaleY="1" source="tpm_bgmask_png"/>
+		<e:Label text="音效选项" x="55" y="139.7" size="24" textColor="0x524000" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label text="其他" x="104" y="358.01" size="24" textColor="0x524000" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label text="版本：1.0.0" x="418.88" y="358.01" size="24" textColor="0x524000" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label text="音乐" x="104" y="237" size="24" textColor="0x524000" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:Label text="音效" x="352.5" y="237" size="24" textColor="0x524000" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+		<e:ToggleButton id="bgMusic_hallBtn" label="" x="163" y="225.7" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_set_open_png" source.down="tpm_set_close_png"/>
+				<e:Label id="labelDisplay" text.up="开启" text.down="关闭" x.down="75" x.up="10"  y="12" textColor.up="0xffffff" textColor.down="0x524000" fontFamily="Microsoft YaHei" size="22"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="effectMusic_hallBtn" label="" x="419" y="224.7" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_set_open_png" source.down="tpm_set_close_png"/>
+				<e:Label id="labelDisplay" text.up="开启" text.down="关闭" x.down="75" x.up="10"  y="12" textColor.up="0xffffff" textColor.down="0x524000" fontFamily="Microsoft YaHei" size="22"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:Button id="closeBtnHall" label="" horizontalCenter="306" verticalCenter="-133.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_close_btn_png" source.down="tpm_close_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="tpm_set_head_png" x="257" y="43"/>
+	</e:Group>
+</e:Skin>

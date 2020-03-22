@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.RegistPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="tpm_register_layer_png"/>
+    <e:EditableText id="nameEdit" width="300" height="36" text="" x="525" y="236" size="36" textColor="0x000000" anchorOffsetX="0" prompt="请输入用户名" displayAsPassword="false" promptColor="0x666666" maxChars="11" restrict="&quot;a-zA-Z0-9&quot;" verticalAlign="bottom" inputType="text"/>
+	<e:EditableText id="nickNameEdit" width="300" height="36" text="" x="525" y="314" size="36" textColor="0x000000" anchorOffsetX="0" prompt="请输入昵称" displayAsPassword="false" promptColor="0x666666" maxChars="11" restrict="&quot;a-zA-Z0-9\u4E00-\u9FA5&quot;" verticalAlign="bottom"/>
+    <e:EditableText id="passEdit" width="300" height="36" text="" x="525" y="389.76" size="36" textColor="0x000000" anchorOffsetX="0" prompt="请输入密码" displayAsPassword="true" promptColor="0x666666" restrict="&quot;a-zA-Z0-9&quot;" inputType="password" maxChars="16" verticalAlign="bottom"/>
+	<e:Button id="registBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="558" y="456">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="PlistLogin_json.btn_register_ok"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+    </e:Button>
+    <e:Button id="backBtn" label="" anchorOffsetX="0" anchorOffsetY="0" x="558" y="550">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="PlistLogin_json.btn_back"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+    </e:Button>
+</e:Skin>

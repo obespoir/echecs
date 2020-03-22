@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TpmSkin.MessageBoxSkin" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="455" height="304" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" horizontalCenter="0">
+		<e:Rect id="blackBg" width="1334" height="750" x="-438" y="-223" fillAlpha="0.8" scaleX="1" scaleY="1"/>
+		<e:Image source="tpm_com_title_bg_png" x="1" y="5" scale9Grid="15,15,90,90" width="453" height="301"/>
+		<e:Image source="tpm_com_bord_png" x="5" y="6" scale9Grid="26,31,72,59" anchorOffsetX="0" width="440" anchorOffsetY="0" height="285"/>
+		<e:Label id="msgLabel" text="您确定要退出游戏吗?" x="81" y="79" anchorOffsetX="0" width="293" anchorOffsetY="0" height="37" size="30" fontFamily="Microsoft YaHei" lineSpacing="10" textColor="0x7f1700"/>
+		<e:Button id="sureBtn" label="" horizontalCenter="-96.5" verticalCenter="36.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_com_org_btn_png" source.down="tpm_com_org_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+				<e:Image x="36" y="13" scaleX.down="0.95" scaleY.down="0.95" source="tpm_sureSkin_png"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="cancelBtn" label="" horizontalCenter="101.5" verticalCenter="36.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tpm_com_green_btn_png" source.down="tpm_com_green_btn_png" scaleX.down="0.95" scaleY.down="0.95"/>
+                <e:Image x="36" y="13" scaleX.down="0.95" scaleY.down="0.95" source="tpm_cancleSkin_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>
