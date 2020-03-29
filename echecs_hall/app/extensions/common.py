@@ -7,9 +7,12 @@ import datetime
 
 # md5加密
 def md5(param):
-    m = hashlib.md5()
-    m.update(param)
-    return m.hexdigest()
+    c_md5 = hashlib.md5()
+    c_md5.update(param.encode("utf-8"))
+    return c_md5.hexdigest()
+    # m = hashlib.md5()
+    # m.update(param)
+    # return m.hexdigest()
 
 
 def diff_days(timestamp):

@@ -17,15 +17,15 @@ class Singleton(type):
         return cls._instance
 
 
-class Config(object):
-    __metaclass__ = Singleton  # 注意：本套代码是在单进程下运行，否则会引发线程安全问题
+class Config(object, metaclass=Singleton):
+    # __metaclass__ = Singleton  # 注意：本套代码是在单进程下运行，否则会引发线程安全问题
 
     def __init__(self):
         self.config_path = "config.json"
 
 
-class GlobalObject(object):
-    __metaclass__ = Singleton
+class GlobalObject(object, metaclass=Singleton):
+    # __metaclass__ = Singleton
 
     def __init__(self):
         self.db = None
@@ -43,8 +43,6 @@ class GlobalObject(object):
         path = os.getcwd()+"/config.ini"
         settings = ConfigParser(path)
         self.settings = settings
-
-
 
 
 settings = ConfigParser(os.getcwd() + "/config.ini")

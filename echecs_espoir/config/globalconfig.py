@@ -17,9 +17,9 @@ class Singleton(type):
         return cls._instance
 
 
-class GlobalConfig(object):
+class GlobalConfig(object, metaclass=Singleton):
 
-    __metaclass__ = Singleton   #注意：本套代码是在单进程下运行，否则会引发线程安全问题
+    # __metaclass__ = Singleton   #注意：本套代码是在单进程下运行，否则会引发线程安全问题
 
     def __init__(self):
         # logger.info("Config init...")

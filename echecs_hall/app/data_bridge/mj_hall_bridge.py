@@ -32,7 +32,8 @@ def validate_password(username, password):
 
 def get_user_info_in_cache(uid):
     r_key = 'hu:' + str(uid)
-    return get_one_in_redis(r_key)
+    ret = get_one_in_redis(r_key)
+    return ret
 
 
 def save_user_info_in_cache(uid, user_info):

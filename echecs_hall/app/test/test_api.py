@@ -119,5 +119,5 @@ if __name__ == "__main__":
     # print(dir(TT))
     # test_restart_delete_room_info()
     # test_match_room_game_over()
-    # test_get_hall_room_info2()
+    test_get_hall_room_info2()
     test_init_room_cfg()

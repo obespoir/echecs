@@ -200,7 +200,8 @@ def create_room_cfg(name, special_rule, min_enter_gold, min_play_gold, max_enter
         room_cfg_id = RoomCFG.create(name, special_rule, min_enter_gold, min_play_gold, max_enter_gold, base_bet,
                                  service_charge, draw_card_time, min_hu_fan, max_hu_fan, recommend_pay_num, room_type)
     else:
-        return room_cfg[0].im_self.id
+        print("ffffff:", [room_cfg])
+        return room_cfg[0]["id"]
     return room_cfg_id
 
 

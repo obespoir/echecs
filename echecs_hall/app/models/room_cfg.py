@@ -72,21 +72,23 @@ class RoomCFG(Base):
     def get_cfg_info_by_id(cls, _id):
         with sessionCM() as session:
             room_cfg = session.query(RoomCFG).filter_by(id=_id).first()
-            return room_cfg.to_dict if room_cfg else {}
+            return room_cfg.to_dict() if room_cfg else {}
 
     @classmethod
     def get_cfg_by_name(cls, name):
         with sessionCM() as session:
             room_cfg = session.query(RoomCFG).filter_by(name=name).first()
-            return [room_cfg.to_dict] if room_cfg else [{}]
+            return [room_cfg.to_dict()] if room_cfg else [{}]
 
     @classmethod
     def get_cfg_all(cls):
         with sessionCM() as session:
             room_cfgs = session.query(RoomCFG).all()
             ret = []
+            print("aaaaaa:", room_cfgs)
             for i in room_cfgs:
                 ret.append(i.to_dict())
+            print("ccccccccc:", ret)
             return ret if room_cfgs else [{}]
 
     @classmethod
@@ -117,7 +119,8 @@ class RoomCFG(Base):
 
 from app.extensions.globalobject import GlobalObject
 
-
+print("kkkkkkkkkkkk")
 GlobalObject().room_cfg_list = RoomCFG.get_cfg_all()
+print("kkkkkkkkkkkk:", GlobalObject().room_cfg_list)
 
 
